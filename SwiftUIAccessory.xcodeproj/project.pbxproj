@@ -11,6 +11,7 @@
 		FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FF2768BE1A00BCE60A /* ContentView.swift */; };
 		FD4241022768BE1E00BCE60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4241012768BE1E00BCE60A /* Assets.xcassets */; };
 		FD4241052768BE1E00BCE60A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4241042768BE1E00BCE60A /* Preview Assets.xcassets */; };
+		FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42410C2768BF4600BCE60A /* CustomLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FD4240FF2768BE1A00BCE60A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD4241012768BE1E00BCE60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4241042768BE1E00BCE60A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD42410C2768BF4600BCE60A /* CustomLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD42410B2768BF3700BCE60A /* CustomLoader */,
 				FD4241012768BE1E00BCE60A /* Assets.xcassets */,
 				FD4241032768BE1E00BCE60A /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				FD4241042768BE1E00BCE60A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD42410B2768BF3700BCE60A /* CustomLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FD42410C2768BF4600BCE60A /* CustomLoader.swift */,
+			);
+			path = CustomLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
+				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

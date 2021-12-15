@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Context_Menu()
+        ConfirmationDialog()
     }
 }
 

@@ -14,6 +14,7 @@
 		FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42410C2768BF4600BCE60A /* CustomLoader.swift */; };
 		FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42410F2768C67600BCE60A /* HeroSegmentControl.swift */; };
 		FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4241122769F7B300BCE60A /* DatePickers.swift */; };
+		FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FD42410C2768BF4600BCE60A /* CustomLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
 		FD42410F2768C67600BCE60A /* HeroSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSegmentControl.swift; sourceTree = "<group>"; };
 		FD4241122769F7B300BCE60A /* DatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickers.swift; sourceTree = "<group>"; };
+		FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ActionSheets_Modals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD424114276A024200BCE60A /* Alerts_ActionSheets_Modals */,
 				FD4241112769F77500BCE60A /* DatePickers */,
 				FD42410E2768C64C00BCE60A /* HeroSegmentControl */,
 				FD42410B2768BF3700BCE60A /* CustomLoader */,
@@ -98,6 +101,14 @@
 				FD4241122769F7B300BCE60A /* DatePickers.swift */,
 			);
 			path = DatePickers;
+			sourceTree = "<group>";
+		};
+		FD424114276A024200BCE60A /* Alerts_ActionSheets_Modals */ = {
+			isa = PBXGroup;
+			children = (
+				FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */,
+			);
+			path = Alerts_ActionSheets_Modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
+				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

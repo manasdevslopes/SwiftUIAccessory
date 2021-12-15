@@ -26,3 +26,10 @@
 5. Context Menu
 
 ![image](https://user-images.githubusercontent.com/43421834/146192512-37906a5c-6994-4e78-ab78-336054ab43df.png)
+
+
+6. ConfirmationDialog in iPhones / iPads
+
+![image](https://user-images.githubusercontent.com/43421834/146196534-a40bd784-b144-4b5f-98fd-2cff10989b85.png)
+![image](https://user-images.githubusercontent.com/43421834/146196804-48140515-730c-4cd5-abf5-582c30cf2191.png)
+![image](https://user-images.githubusercontent.com/43421834/146196836-adcc693b-889b-4542-bd09-9b7c8ce32f3f.png)

@@ -15,6 +15,7 @@
 		FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42410F2768C67600BCE60A /* HeroSegmentControl.swift */; };
 		FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4241122769F7B300BCE60A /* DatePickers.swift */; };
 		FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */; };
+		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FD42410F2768C67600BCE60A /* HeroSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSegmentControl.swift; sourceTree = "<group>"; };
 		FD4241122769F7B300BCE60A /* DatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickers.swift; sourceTree = "<group>"; };
 		FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ActionSheets_Modals.swift; sourceTree = "<group>"; };
+		FD424118276A1DDA00BCE60A /* Context_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context_Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD424117276A1D1B00BCE60A /* Context_Menu */,
 				FD424114276A024200BCE60A /* Alerts_ActionSheets_Modals */,
 				FD4241112769F77500BCE60A /* DatePickers */,
 				FD42410E2768C64C00BCE60A /* HeroSegmentControl */,
@@ -109,6 +112,14 @@
 				FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */,
 			);
 			path = Alerts_ActionSheets_Modals;
+			sourceTree = "<group>";
+		};
+		FD424117276A1D1B00BCE60A /* Context_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FD424118276A1DDA00BCE60A /* Context_Menu.swift */,
+			);
+			path = Context_Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,

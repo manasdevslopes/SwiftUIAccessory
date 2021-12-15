@@ -15,3 +15,9 @@
 
 ![image](https://user-images.githubusercontent.com/43421834/146174365-a4752d24-3e4f-4e3a-a807-dba08188e29e.png)
 ![image](https://user-images.githubusercontent.com/43421834/146174415-e48bd286-266f-4818-a24d-321130facc47.png)
+
+
+4. Types of Modals - FullScreenCover, Sheet View Modal, Half Sheet View Modal, Alert View, Action Sheet
+
+![image](https://user-images.githubusercontent.com/43421834/146189687-6d302f63-aaca-494a-ac2a-eecec9cdf045.png)
+![image](https://user-images.githubusercontent.com/43421834/146189727-10610ea4-25f9-431a-9a5d-ec53313925e0.png)

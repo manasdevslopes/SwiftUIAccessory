@@ -41,8 +41,6 @@
 ![image](https://user-images.githubusercontent.com/43421834/146370880-ce46478c-bbcb-4734-97a9-e09b0ca0354b.png)
 
 
-
-
 8. Button Styles iOS 15 SwiftUI
 
 ![image](https://user-images.githubusercontent.com/43421834/146390628-b8755000-592d-4595-a693-aa2919bc6316.png)

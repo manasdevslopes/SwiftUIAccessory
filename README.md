@@ -33,3 +33,9 @@
 ![image](https://user-images.githubusercontent.com/43421834/146196534-a40bd784-b144-4b5f-98fd-2cff10989b85.png)
 ![image](https://user-images.githubusercontent.com/43421834/146196804-48140515-730c-4cd5-abf5-582c30cf2191.png)
 ![image](https://user-images.githubusercontent.com/43421834/146196836-adcc693b-889b-4542-bd09-9b7c8ce32f3f.png)
+
+
+7. Environment values example
+
+![image](https://user-images.githubusercontent.com/43421834/146370781-ded7b709-cb89-4f01-a967-24deb6884360.png)
+![image](https://user-images.githubusercontent.com/43421834/146370880-ce46478c-bbcb-4734-97a9-e09b0ca0354b.png)

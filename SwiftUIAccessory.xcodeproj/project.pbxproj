@@ -18,6 +18,7 @@
 		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
+		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		FD424118276A1DDA00BCE60A /* Context_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context_Menu.swift; sourceTree = "<group>"; };
 		FD42411B276A216600BCE60A /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD6EDB24276B67D40022F45A /* ButtonsStyles */,
 				FD6EDB21276B5F990022F45A /* Environment_Values */,
 				FD42411A276A214900BCE60A /* Confirmation_Dialog */,
 				FD424117276A1D1B00BCE60A /* Context_Menu */,
@@ -144,6 +147,14 @@
 			path = Environment_Values;
 			sourceTree = "<group>";
 		};
+		FD6EDB24276B67D40022F45A /* ButtonsStyles */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EDB25276B67F50022F45A /* ButtonStyles.swift */,
+			);
+			path = ButtonsStyles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,6 +228,7 @@
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
+				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,

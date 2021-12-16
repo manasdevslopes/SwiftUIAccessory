@@ -44,7 +44,7 @@ struct EnvironmentValues: View {
 struct EnvironmentValues_Previews: PreviewProvider {
     static var previews: some View {
         EnvironmentValues()
-            .preferredColorScheme(.light)
-            .environment(\.dynamicTypeSize, .accessibility2)
+            .preferredColorScheme(.dark)
+            .environment(\.dynamicTypeSize, .accessibility1)
     }
 }

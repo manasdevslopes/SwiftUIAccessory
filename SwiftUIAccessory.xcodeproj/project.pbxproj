@@ -17,6 +17,7 @@
 		FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */; };
 		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
+		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ActionSheets_Modals.swift; sourceTree = "<group>"; };
 		FD424118276A1DDA00BCE60A /* Context_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context_Menu.swift; sourceTree = "<group>"; };
 		FD42411B276A216600BCE60A /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
+		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD6EDB21276B5F990022F45A /* Environment_Values */,
 				FD42411A276A214900BCE60A /* Confirmation_Dialog */,
 				FD424117276A1D1B00BCE60A /* Context_Menu */,
 				FD424114276A024200BCE60A /* Alerts_ActionSheets_Modals */,
@@ -131,6 +134,14 @@
 				FD42411B276A216600BCE60A /* ConfirmationDialog.swift */,
 			);
 			path = Confirmation_Dialog;
+			sourceTree = "<group>";
+		};
+		FD6EDB21276B5F990022F45A /* Environment_Values */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */,
+			);
+			path = Environment_Values;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
+				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

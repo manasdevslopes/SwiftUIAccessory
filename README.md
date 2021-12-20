@@ -46,3 +46,20 @@
 ![image](https://user-images.githubusercontent.com/43421834/146390628-b8755000-592d-4595-a693-aa2919bc6316.png)
 ![image](https://user-images.githubusercontent.com/43421834/146390674-d374ebf2-e169-4a0d-8c56-9de51ebfb171.png)
 
+
+9. Staggered View a.k.a. Waterfall view
+
+![image](https://user-images.githubusercontent.com/43421834/146794621-0b09b3c3-ac7b-4e3a-bbcb-544195bdf9e4.png)
+![image](https://user-images.githubusercontent.com/43421834/146794658-8597cdc4-7d89-4af6-8517-8c8b635151b9.png)
+![image](https://user-images.githubusercontent.com/43421834/146794694-eb6bbdbf-d1f8-47c8-817c-723ab8d2428f.png)
+![image](https://user-images.githubusercontent.com/43421834/146794734-1f522ede-7940-4d6e-b11c-d88083cb1b96.png)
+
+
+10. Custom Tool Bar with PopOver with shapes
+
+![image](https://user-images.githubusercontent.com/43421834/146794327-793a3f88-a413-488c-8af0-db7d19859a49.png)
+![image](https://user-images.githubusercontent.com/43421834/146794356-b3f57887-b430-477b-8a02-1906f1f65f4e.png)
+![image](https://user-images.githubusercontent.com/43421834/146794402-e20b9422-5538-4812-a4ac-023013e231b6.png)
+![image](https://user-images.githubusercontent.com/43421834/146794442-5732c4f6-575e-40b9-9024-3c931f9a6dbd.png)
+![image](https://user-images.githubusercontent.com/43421834/146794480-af4c108f-0a94-4359-95b0-6f2357b685e1.png)
+

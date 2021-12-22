@@ -63,3 +63,12 @@
 ![image](https://user-images.githubusercontent.com/43421834/146794442-5732c4f6-575e-40b9-9024-3c931f9a6dbd.png)
 ![image](https://user-images.githubusercontent.com/43421834/146794480-af4c108f-0a94-4359-95b0-6f2357b685e1.png)
 
+
+
+11. Animated Auto Scrollable Header View
+
+![image](https://user-images.githubusercontent.com/43421834/147096626-2d54aaa0-dfe8-4155-9d8b-769ee830007d.png)
+![image](https://user-images.githubusercontent.com/43421834/147096669-4edd7ad9-f9c9-43a3-bd68-38ac002cbf73.png)
+![image](https://user-images.githubusercontent.com/43421834/147096697-a9b55970-3632-438d-b38e-42b3f8e15946.png)
+![image](https://user-images.githubusercontent.com/43421834/147096802-17ee6262-1031-4d8e-84eb-a9d288d4cb10.png)
+

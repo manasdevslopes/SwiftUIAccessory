@@ -72,3 +72,9 @@
 ![image](https://user-images.githubusercontent.com/43421834/147096697-a9b55970-3632-438d-b38e-42b3f8e15946.png)
 ![image](https://user-images.githubusercontent.com/43421834/147096802-17ee6262-1031-4d8e-84eb-a9d288d4cb10.png)
 
+
+12. Scratch Card Effect
+
+![image](https://user-images.githubusercontent.com/43421834/147481688-b49fac24-27d1-489a-8098-db3bb10e01f1.png)
+![image](https://user-images.githubusercontent.com/43421834/147481786-07c9019b-5c98-4dc0-abba-34b43d190d65.png)
+![image](https://user-images.githubusercontent.com/43421834/147481720-3eb279e3-6cef-483b-9ebd-518ae69aae8f.png)

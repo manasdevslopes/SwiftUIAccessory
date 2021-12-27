@@ -27,6 +27,7 @@
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
+		FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDD356582779CF0200A3B34D /* ScratchCardEffect */,
 				FD592435277334F900EF524F /* AnimatedAutoScrollableHeaderMenu */,
 				FD24D7AF27709762002A1340 /* CustomToolBar */,
 				FDCC5867276CB72F00B3114B /* StaggeredGrid */,
@@ -235,6 +238,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FDD356582779CF0200A3B34D /* ScratchCardEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */,
+			);
+			path = ScratchCardEffect;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +330,7 @@
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
+				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,

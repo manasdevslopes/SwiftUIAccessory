@@ -16,6 +16,18 @@ struct DatePickers: View {
     @State private var birthdatetimefu = Date()
     @State private var birth = Date()
     
+    @State private var selectedDate = Date()
+    let startingDate: Date = Calendar.current.date(from: DateComponents(year: 2018)) ?? Date()
+    let endDate: Date = Date()
+    
+    var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .short
+        return formatter
+    }
+    
+    
     var body: some View {
         VStack {
             Form {
@@ -41,7 +53,20 @@ struct DatePickers: View {
                     DatePicker("Birthdatetime future", selection: $birthdatetimefu, in: ...Date())
                         .datePickerStyle(.graphical)
                 }
-                
+                VStack {
+                    Text("SELECTED DATE IS :")
+                    Text(dateFormatter.string(from: selectedDate)
+                         //                         selectedDate.description
+                    )
+                        .font(.title3)
+                    DatePicker("Select a Date", selection: $selectedDate, in: startingDate...endDate, displayedComponents: [.date, .hourAndMinute])
+                        .accentColor(Color.red)
+                        .foregroundColor(Color.red)
+                        .datePickerStyle(
+                            // CompactDatePickerStyle()
+                            GraphicalDatePickerStyle()
+                        )
+                }
                 
             }
         }

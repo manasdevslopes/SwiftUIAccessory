@@ -94,6 +94,12 @@ struct BottomCardView: View {
                 .font(.subheadline)
                 .lineSpacing(4)
             
+            HStack(alignment: .center, spacing: 25) {
+                ButtonView(systemIconName: "bell", action: {}, bgColor: Color.blue)
+                ButtonView(systemIconName: "airplane", action: {}, bgColor: Color.yellow)
+                ButtonView(systemIconName: "gear", action: {}, bgColor: Color.pink)
+                ButtonView(systemIconName: "house", action: {}, bgColor: Color.cyan)
+            }
             Spacer()
             
         }
@@ -107,6 +113,22 @@ struct BottomCardView: View {
     }
 }
 
+// Button View
+struct ButtonView: View {
+    let systemIconName: String
+    let action: ()->Void
+    let bgColor: Color
+    var body: some View {
+        Button(action: action) {
+            Image(systemName: systemIconName)
+                .font(.system(size: 25))
+                .foregroundColor(.white)
+                .frame(width: 55, height: 55)
+                .background(bgColor)
+                .clipShape(Circle())
+        }
+    }
+}
 // Blur View
 struct BlurView: UIViewRepresentable {
     let style: UIBlurEffect.Style

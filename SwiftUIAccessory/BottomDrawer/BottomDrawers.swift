@@ -89,7 +89,7 @@ struct BottomCardView: View {
                 .frame(width: 40, height: 5)
                 .cornerRadius(3)
                 .opacity(0.1)
-            Text("This certificate is proof that Meng To has achieved the UI Design course with approval from a Design+Code instructor.")
+            Text("This certificate is proof that Manas Vijaywargiya has achieved the UI Design course with approval from a Design+Code instructor.")
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(4)

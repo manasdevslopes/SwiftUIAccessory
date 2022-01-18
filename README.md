@@ -96,4 +96,5 @@
 15. Long Press Gesture
 16. Magnification Gesture
 17. Rotation Gesture
- 
+18. Drag Gestures
+

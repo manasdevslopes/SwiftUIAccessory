@@ -92,3 +92,8 @@
 ![image](https://user-images.githubusercontent.com/43421834/148235386-e4907e27-83d5-4dd0-88ba-b80d3374b1a9.png)
 
 
+
+15. Long Press Gesture
+16. Magnification Gesture
+17. Rotation Gesture
+ 

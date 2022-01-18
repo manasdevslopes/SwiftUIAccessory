@@ -29,6 +29,8 @@
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
 		FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75822796D56800762FCE /* RotationGestures.swift */; };
+		FD7E75862796D83500762FCE /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75852796D83500762FCE /* DragGestures.swift */; };
+		FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75872796DD7100762FCE /* DragGestures2.swift */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
@@ -59,6 +61,8 @@
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		FD7E75822796D56800762FCE /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
+		FD7E75852796D83500762FCE /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
+		FD7E75872796DD7100762FCE /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD7E75842796D82200762FCE /* DragGestures */,
 				FD7E75812796D55700762FCE /* RotationGestures */,
 				FD64631F2796B4AF000D4843 /* MagnificationGestures */,
 				FD64631C2796AE51000D4843 /* LongPressGesture */,
@@ -275,6 +280,15 @@
 			path = RotationGestures;
 			sourceTree = "<group>";
 		};
+		FD7E75842796D82200762FCE /* DragGestures */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E75852796D83500762FCE /* DragGestures.swift */,
+				FD7E75872796DD7100762FCE /* DragGestures2.swift */,
+			);
+			path = DragGestures;
+			sourceTree = "<group>";
+		};
 		FDCC5867276CB72F00B3114B /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
@@ -384,6 +399,7 @@
 				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD24D7B327709979002A1340 /* Popover.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
+				FD7E75862796D83500762FCE /* DragGestures.swift in Sources */,
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,

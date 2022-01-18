@@ -23,9 +23,12 @@
 		FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */; };
 		FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */; };
 		FD59243B277335DE00EF524F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59243A277335DE00EF524F /* Tabs.swift */; };
+		FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64631D2796AE8B000D4843 /* LongPressGesture.swift */; };
+		FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6463202796B4C1000D4843 /* MagnificationGestures.swift */; };
 		FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
+		FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75822796D56800762FCE /* RotationGestures.swift */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
@@ -50,9 +53,12 @@
 		FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTransition.swift; sourceTree = "<group>"; };
 		FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAutoScrollableHeaderMenu.swift; sourceTree = "<group>"; };
 		FD59243A277335DE00EF524F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		FD64631D2796AE8B000D4843 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		FD6463202796B4C1000D4843 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		FD7E75822796D56800762FCE /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD7E75812796D55700762FCE /* RotationGestures */,
+				FD64631F2796B4AF000D4843 /* MagnificationGestures */,
+				FD64631C2796AE51000D4843 /* LongPressGesture */,
 				FD512DB02785E3C700FDB242 /* CustomViewTransition */,
 				FD512DAA2785ADEE00FDB242 /* BottomDrawer */,
 				FDD356582779CF0200A3B34D /* ScratchCardEffect */,
@@ -218,6 +227,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FD64631C2796AE51000D4843 /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FD64631D2796AE8B000D4843 /* LongPressGesture.swift */,
+			);
+			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
+		FD64631F2796B4AF000D4843 /* MagnificationGestures */ = {
+			isa = PBXGroup;
+			children = (
+				FD6463202796B4C1000D4843 /* MagnificationGestures.swift */,
+			);
+			path = MagnificationGestures;
+			sourceTree = "<group>";
+		};
 		FD6BA5782773491500BA7F5D /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +265,14 @@
 				FD6EDB25276B67F50022F45A /* ButtonStyles.swift */,
 			);
 			path = ButtonsStyles;
+			sourceTree = "<group>";
+		};
+		FD7E75812796D55700762FCE /* RotationGestures */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E75822796D56800762FCE /* RotationGestures.swift */,
+			);
+			path = RotationGestures;
 			sourceTree = "<group>";
 		};
 		FDCC5867276CB72F00B3114B /* StaggeredGrid */ = {
@@ -338,7 +371,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
+				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
@@ -355,6 +390,7 @@
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
+				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,

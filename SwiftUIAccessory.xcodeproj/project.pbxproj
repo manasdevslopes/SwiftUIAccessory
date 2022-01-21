@@ -31,6 +31,13 @@
 		FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75822796D56800762FCE /* RotationGestures.swift */; };
 		FD7E75862796D83500762FCE /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75852796D83500762FCE /* DragGestures.swift */; };
 		FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75872796DD7100762FCE /* DragGestures2.swift */; };
+		FDA03FCF279A9F7D00C2959D /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */; };
+		FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FD1279AA58500C2959D /* GeometryReaders.swift */; };
+		FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FD4279AAAB700C2959D /* MultipleSheets.swift */; };
+		FDA03FD8279AD80700C2959D /* Masks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FD7279AD80700C2959D /* Masks.swift */; };
+		FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FDA279AE69200C2959D /* SoundEffects.swift */; };
+		FDA03FDE279AEA4400C2959D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDC279AEA4400C2959D /* badum.mp3 */; };
+		FDA03FDF279AEA4400C2959D /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDD279AEA4400C2959D /* tada.mp3 */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
@@ -63,6 +70,13 @@
 		FD7E75822796D56800762FCE /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
 		FD7E75852796D83500762FCE /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		FD7E75872796DD7100762FCE /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
+		FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
+		FDA03FD1279AA58500C2959D /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
+		FDA03FD4279AAAB700C2959D /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
+		FDA03FD7279AD80700C2959D /* Masks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masks.swift; sourceTree = "<group>"; };
+		FDA03FDA279AE69200C2959D /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
+		FDA03FDC279AEA4400C2959D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		FDA03FDD279AEA4400C2959D /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -110,6 +124,11 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDA03FD9279AE67800C2959D /* SoundEffects */,
+				FDA03FD6279AD79800C2959D /* Masks */,
+				FDA03FD3279AAAA900C2959D /* MultipleSheets */,
+				FDA03FD0279AA57600C2959D /* GeometryReaders */,
+				FDA03FCD279A9F6B00C2959D /* ScrollViewReaders */,
 				FD7E75842796D82200762FCE /* DragGestures */,
 				FD7E75812796D55700762FCE /* RotationGestures */,
 				FD64631F2796B4AF000D4843 /* MagnificationGestures */,
@@ -289,6 +308,48 @@
 			path = DragGestures;
 			sourceTree = "<group>";
 		};
+		FDA03FCD279A9F6B00C2959D /* ScrollViewReaders */ = {
+			isa = PBXGroup;
+			children = (
+				FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */,
+			);
+			path = ScrollViewReaders;
+			sourceTree = "<group>";
+		};
+		FDA03FD0279AA57600C2959D /* GeometryReaders */ = {
+			isa = PBXGroup;
+			children = (
+				FDA03FD1279AA58500C2959D /* GeometryReaders.swift */,
+			);
+			path = GeometryReaders;
+			sourceTree = "<group>";
+		};
+		FDA03FD3279AAAA900C2959D /* MultipleSheets */ = {
+			isa = PBXGroup;
+			children = (
+				FDA03FD4279AAAB700C2959D /* MultipleSheets.swift */,
+			);
+			path = MultipleSheets;
+			sourceTree = "<group>";
+		};
+		FDA03FD6279AD79800C2959D /* Masks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA03FD7279AD80700C2959D /* Masks.swift */,
+			);
+			path = Masks;
+			sourceTree = "<group>";
+		};
+		FDA03FD9279AE67800C2959D /* SoundEffects */ = {
+			isa = PBXGroup;
+			children = (
+				FDA03FDC279AEA4400C2959D /* badum.mp3 */,
+				FDA03FDD279AEA4400C2959D /* tada.mp3 */,
+				FDA03FDA279AE69200C2959D /* SoundEffects.swift */,
+			);
+			path = SoundEffects;
+			sourceTree = "<group>";
+		};
 		FDCC5867276CB72F00B3114B /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +434,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA03FDF279AEA4400C2959D /* tada.mp3 in Resources */,
+				FDA03FDE279AEA4400C2959D /* badum.mp3 in Resources */,
 				FD4241052768BE1E00BCE60A /* Preview Assets.xcassets in Resources */,
 				FD4241022768BE1E00BCE60A /* Assets.xcassets in Resources */,
 			);
@@ -385,7 +448,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
+				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
@@ -399,6 +464,7 @@
 				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD24D7B327709979002A1340 /* Popover.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
+				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
 				FD7E75862796D83500762FCE /* DragGestures.swift in Sources */,
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
@@ -409,8 +475,10 @@
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
+				FDA03FCF279A9F7D00C2959D /* ScrollViewReaders.swift in Sources */,
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,
 				FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */,
+				FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

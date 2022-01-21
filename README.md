@@ -97,4 +97,9 @@
 16. Magnification Gesture
 17. Rotation Gesture
 18. Drag Gestures
+19. ScrollViewReaders
+20. GeometryReader
+21. Multiple Sheets
+22. Masks
+23. sound Effects
 

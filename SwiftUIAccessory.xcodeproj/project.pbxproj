@@ -38,6 +38,9 @@
 		FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FDA279AE69200C2959D /* SoundEffects.swift */; };
 		FDA03FDE279AEA4400C2959D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDC279AEA4400C2959D /* badum.mp3 */; };
 		FDA03FDF279AEA4400C2959D /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDD279AEA4400C2959D /* tada.mp3 */; };
+		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
+		FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */; };
+		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
@@ -77,6 +80,9 @@
 		FDA03FDA279AE69200C2959D /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		FDA03FDC279AEA4400C2959D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		FDA03FDD279AEA4400C2959D /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
+		FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestFirst.swift; sourceTree = "<group>"; };
+		FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestSecond.swift; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -124,6 +130,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDA71E1827A6ACD4007E9695 /* AppStoreReviewRequest */,
 				FDA03FD9279AE67800C2959D /* SoundEffects */,
 				FDA03FD6279AD79800C2959D /* Masks */,
 				FDA03FD3279AAAA900C2959D /* MultipleSheets */,
@@ -350,6 +357,16 @@
 			path = SoundEffects;
 			sourceTree = "<group>";
 		};
+		FDA71E1827A6ACD4007E9695 /* AppStoreReviewRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */,
+				FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */,
+				FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */,
+			);
+			path = AppStoreReviewRequest;
+			sourceTree = "<group>";
+		};
 		FDCC5867276CB72F00B3114B /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +470,7 @@
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
+				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
@@ -461,6 +479,7 @@
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,
+				FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */,
 				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD24D7B327709979002A1340 /* Popover.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
@@ -479,6 +498,7 @@
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,
 				FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */,
 				FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */,
+				FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +627,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAccessory/Preview Content\"";
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
@@ -636,7 +656,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAccessory/Preview Content\"";
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;

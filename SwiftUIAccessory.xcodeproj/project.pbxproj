@@ -45,6 +45,7 @@
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
 		FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */; };
+		FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardEffect.swift; sourceTree = "<group>"; };
+		FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsVibrations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDD6477D27AACB3100B573FC /* HapticsVibrations */,
 				FDA71E1827A6ACD4007E9695 /* AppStoreReviewRequest */,
 				FDA03FD9279AE67800C2959D /* SoundEffects */,
 				FDA03FD6279AD79800C2959D /* Masks */,
@@ -393,6 +396,14 @@
 			path = ScratchCardEffect;
 			sourceTree = "<group>";
 		};
+		FDD6477D27AACB3100B573FC /* HapticsVibrations */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */,
+			);
+			path = HapticsVibrations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -476,6 +487,7 @@
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
 				FDCC5869276CB96000B3114B /* Home.swift in Sources */,
+				FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,

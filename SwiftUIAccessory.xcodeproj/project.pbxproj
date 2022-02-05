@@ -23,6 +23,7 @@
 		FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */; };
 		FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */; };
 		FD59243B277335DE00EF524F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59243A277335DE00EF524F /* Tabs.swift */; };
+		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
 		FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64631D2796AE8B000D4843 /* LongPressGesture.swift */; };
 		FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6463202796B4C1000D4843 /* MagnificationGestures.swift */; };
 		FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */; };
@@ -66,6 +67,7 @@
 		FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTransition.swift; sourceTree = "<group>"; };
 		FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAutoScrollableHeaderMenu.swift; sourceTree = "<group>"; };
 		FD59243A277335DE00EF524F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
 		FD64631D2796AE8B000D4843 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		FD6463202796B4C1000D4843 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD5F405E27AE6859007F4191 /* AppleBedTimeCircularSlider */,
 				FDD6477D27AACB3100B573FC /* HapticsVibrations */,
 				FDA71E1827A6ACD4007E9695 /* AppStoreReviewRequest */,
 				FDA03FD9279AE67800C2959D /* SoundEffects */,
@@ -257,6 +260,22 @@
 			isa = PBXGroup;
 			children = (
 				FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD5F405E27AE6859007F4191 /* AppleBedTimeCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FD5F405F27AE687C007F4191 /* View */,
+			);
+			path = AppleBedTimeCircularSlider;
+			sourceTree = "<group>";
+		};
+		FD5F405F27AE687C007F4191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -502,6 +521,7 @@
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
+				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,

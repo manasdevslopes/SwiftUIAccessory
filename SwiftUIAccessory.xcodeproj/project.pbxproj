@@ -32,6 +32,7 @@
 		FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75822796D56800762FCE /* RotationGestures.swift */; };
 		FD7E75862796D83500762FCE /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75852796D83500762FCE /* DragGestures.swift */; };
 		FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75872796DD7100762FCE /* DragGestures2.swift */; };
+		FD8D6B3127AFE0E10050FC49 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */; };
 		FDA03FCF279A9F7D00C2959D /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */; };
 		FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FD1279AA58500C2959D /* GeometryReaders.swift */; };
 		FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FD4279AAAB700C2959D /* MultipleSheets.swift */; };
@@ -88,6 +89,7 @@
 		FD7E75822796D56800762FCE /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
 		FD7E75852796D83500762FCE /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		FD7E75872796DD7100762FCE /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
+		FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 		FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		FDA03FD1279AA58500C2959D /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
 		FDA03FD4279AAAB700C2959D /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD8D6B2F27AFE0D20050FC49 /* LocalNotifications */,
 				FDE9293727AEA2410012EE6F /* Reels */,
 				FD5F405E27AE6859007F4191 /* AppleBedTimeCircularSlider */,
 				FDD6477D27AACB3100B573FC /* HapticsVibrations */,
@@ -367,6 +370,14 @@
 				FD7E75872796DD7100762FCE /* DragGestures2.swift */,
 			);
 			path = DragGestures;
+			sourceTree = "<group>";
+		};
+		FD8D6B2F27AFE0D20050FC49 /* LocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */,
+			);
+			path = LocalNotifications;
 			sourceTree = "<group>";
 		};
 		FDA03FCD279A9F6B00C2959D /* ScrollViewReaders */ = {
@@ -598,6 +609,7 @@
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,
 				FDE9293D27AEA6F20012EE6F /* Reels.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
+				FD8D6B3127AFE0E10050FC49 /* LocalNotifications.swift in Sources */,
 				FDA03FCF279A9F7D00C2959D /* ScrollViewReaders.swift in Sources */,
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,
 				FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */,
@@ -746,7 +758,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.SwiftUIAccessory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenovas.SwiftUIAccessory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -775,7 +787,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.SwiftUIAccessory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenovas.SwiftUIAccessory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

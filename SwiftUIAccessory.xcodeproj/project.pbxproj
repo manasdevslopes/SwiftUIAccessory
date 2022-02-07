@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
+		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
 		FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */; };
 		FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FF2768BE1A00BCE60A /* ContentView.swift */; };
 		FD4241022768BE1E00BCE60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4241012768BE1E00BCE60A /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
 		FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessoryApp.swift; sourceTree = "<group>"; };
 		FD4240FF2768BE1A00BCE60A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 			path = CustomToolBar;
 			sourceTree = "<group>";
 		};
+		FD28DB9C27B16340005E4568 /* HashableProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				FD28DB9D27B16352005E4568 /* HashableProtocol.swift */,
+			);
+			path = HashableProtocol;
+			sourceTree = "<group>";
+		};
 		FD4240F12768BE1A00BCE60A = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +177,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD28DB9C27B16340005E4568 /* HashableProtocol */,
 				FD8D6B2F27AFE0D20050FC49 /* LocalNotifications */,
 				FDE9293727AEA2410012EE6F /* Reels */,
 				FD5F405E27AE6859007F4191 /* AppleBedTimeCircularSlider */,
@@ -603,6 +614,7 @@
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
+				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,

@@ -27,6 +27,9 @@
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
 		FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64631D2796AE8B000D4843 /* LongPressGesture.swift */; };
 		FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6463202796B4C1000D4843 /* MagnificationGestures.swift */; };
+		FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */; };
+		FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */; };
+		FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */; };
 		FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
@@ -86,6 +89,9 @@
 		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
 		FD64631D2796AE8B000D4843 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		FD6463202796B4C1000D4843 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
+		FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
+		FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		FD68BE4227BBEFC400399326 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD68BE3C27BBEE3000399326 /* CoreDataBootCamp */,
 				FD8E3E6327BA99B500CEDE62 /* ArraysBootcamp */,
 				FD28DB9C27B16340005E4568 /* HashableProtocol */,
 				FD8D6B2F27AFE0D20050FC49 /* LocalNotifications */,
@@ -343,6 +350,16 @@
 				FD6463202796B4C1000D4843 /* MagnificationGestures.swift */,
 			);
 			path = MagnificationGestures;
+			sourceTree = "<group>";
+		};
+		FD68BE3C27BBEE3000399326 /* CoreDataBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */,
+				FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */,
+				FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */,
+			);
+			path = CoreDataBootCamp;
 			sourceTree = "<group>";
 		};
 		FD6BA5782773491500BA7F5D /* ViewModifiers */ = {
@@ -598,6 +615,8 @@
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
+				FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */,
+				FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
@@ -608,6 +627,7 @@
 				FDCC5869276CB96000B3114B /* Home.swift in Sources */,
 				FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
+				FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */,
 				FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */,
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,
@@ -841,6 +861,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD68BE4227BBEFC400399326 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = FD68BE4227BBEFC400399326 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD4240F22768BE1A00BCE60A /* Project object */;
 }

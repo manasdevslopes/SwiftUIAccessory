@@ -120,5 +120,5 @@
 28. Local Notifications
 29. Understanding Hashable Protocol
 30. Array sort, filter, map, compactMap
-
+31. CoreData Basics with MVVM
 

@@ -33,6 +33,9 @@
 		FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
+		FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */; };
+		FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */; };
+		FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */; };
 		FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75822796D56800762FCE /* RotationGestures.swift */; };
 		FD7E75862796D83500762FCE /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75852796D83500762FCE /* DragGestures.swift */; };
 		FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75872796DD7100762FCE /* DragGestures2.swift */; };
@@ -95,6 +98,9 @@
 		FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootCamp.swift; sourceTree = "<group>"; };
+		FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
+		FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		FD7E75822796D56800762FCE /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
 		FD7E75852796D83500762FCE /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		FD7E75872796DD7100762FCE /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
@@ -185,6 +191,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD7CC35E27BD3F2300B83AB7 /* CoreDataRelationshipsBootCamp */,
 				FD68BE3C27BBEE3000399326 /* CoreDataBootCamp */,
 				FD8E3E6327BA99B500CEDE62 /* ArraysBootcamp */,
 				FD28DB9C27B16340005E4568 /* HashableProtocol */,
@@ -384,6 +391,16 @@
 				FD6EDB25276B67F50022F45A /* ButtonStyles.swift */,
 			);
 			path = ButtonsStyles;
+			sourceTree = "<group>";
+		};
+		FD7CC35E27BD3F2300B83AB7 /* CoreDataRelationshipsBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */,
+				FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */,
+				FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */,
+			);
+			path = CoreDataRelationshipsBootCamp;
 			sourceTree = "<group>";
 		};
 		FD7E75812796D55700762FCE /* RotationGestures */ = {
@@ -615,10 +632,13 @@
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
+				FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */,
 				FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */,
 				FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
+				FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */,
+				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
@@ -870,6 +890,16 @@
 			);
 			currentVersion = FD68BE4227BBEFC400399326 /* FruitsContainer.xcdatamodel */;
 			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

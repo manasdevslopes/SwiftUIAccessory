@@ -122,3 +122,4 @@
 30. Array sort, filter, map, compactMap
 31. CoreData Basics with MVVM
 32. Core Data relationships - One to One and One To Many - add, retrieve, update, delete, predicates, filters and delete rules 
+33. Main Thread & Background Threads

@@ -123,3 +123,7 @@
 31. CoreData Basics with MVVM
 32. Core Data relationships - One to One and One To Many - add, retrieve, update, delete, predicates, filters and delete rules 
 33. Main Thread & Background Threads
+34. Weak Self
+35. Typealias
+36. @escaping closure
+37. 

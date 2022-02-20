@@ -53,6 +53,9 @@
 		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
 		FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */; };
 		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
+		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
+		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
+		FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310B27C2554B001A3600 /* EscapingClosures.swift */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
@@ -120,6 +123,9 @@
 		FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
 		FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestFirst.swift; sourceTree = "<group>"; };
 		FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestSecond.swift; sourceTree = "<group>"; };
+		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
+		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		FDC6310B27C2554B001A3600 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -204,6 +210,9 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDC6310A27C2553D001A3600 /* EscapingClosures */,
+				FDC6310727C251F6001A3600 /* TypeAlias */,
+				FDC6310427C24833001A3600 /* WeakSelf */,
 				FD1CEA8A27C113E200BA8262 /* BackgroundThreads */,
 				FD7CC35E27BD3F2300B83AB7 /* CoreDataRelationshipsBootCamp */,
 				FD68BE3C27BBEE3000399326 /* CoreDataBootCamp */,
@@ -502,6 +511,30 @@
 			path = AppStoreReviewRequest;
 			sourceTree = "<group>";
 		};
+		FDC6310427C24833001A3600 /* WeakSelf */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6310527C24845001A3600 /* WeakSelf.swift */,
+			);
+			path = WeakSelf;
+			sourceTree = "<group>";
+		};
+		FDC6310727C251F6001A3600 /* TypeAlias */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6310827C25204001A3600 /* TypeAlias.swift */,
+			);
+			path = TypeAlias;
+			sourceTree = "<group>";
+		};
+		FDC6310A27C2553D001A3600 /* EscapingClosures */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6310B27C2554B001A3600 /* EscapingClosures.swift */,
+			);
+			path = EscapingClosures;
+			sourceTree = "<group>";
+		};
 		FDCC5867276CB72F00B3114B /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
@@ -655,6 +688,7 @@
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
+				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
@@ -678,12 +712,14 @@
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */,
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,
+				FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */,
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
+				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,

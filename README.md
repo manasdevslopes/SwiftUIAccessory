@@ -126,4 +126,5 @@
 34. Weak Self
 35. Typealias
 36. @escaping closure
-37. 
+37. Codable, Encodable, Decodable bootcamp
+38. 

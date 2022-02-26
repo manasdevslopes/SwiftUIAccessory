@@ -127,4 +127,5 @@
 35. Typealias
 36. @escaping closure
 37. Codable, Encodable, Decodable bootcamp
-38. 
+38. Download JSON from API w/ URLSession and completionHandler @escaping
+39. 

@@ -45,6 +45,7 @@
 		FD8B6CCF27CA2DAE00E3EB26 /* CodableBootcamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CCE27CA2DAE00E3EB26 /* CodableBootcamp1.swift */; };
 		FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CD227CA335A00E3EB26 /* CodableBootcamp2.swift */; };
 		FD8B6CD627CA356300E3EB26 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CD527CA356300E3EB26 /* DownloadWithEscaping.swift */; };
+		FD8B6CD927CA448D00E3EB26 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CD827CA448D00E3EB26 /* DownloadWithCombine.swift */; };
 		FD8D6B3127AFE0E10050FC49 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */; };
 		FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E3E6427BA99C600CEDE62 /* ArraysBootcamp.swift */; };
 		FDA03FCF279A9F7D00C2959D /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */; };
@@ -119,6 +120,7 @@
 		FD8B6CCE27CA2DAE00E3EB26 /* CodableBootcamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp1.swift; sourceTree = "<group>"; };
 		FD8B6CD227CA335A00E3EB26 /* CodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp2.swift; sourceTree = "<group>"; };
 		FD8B6CD527CA356300E3EB26 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
+		FD8B6CD827CA448D00E3EB26 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 		FD8E3E6427BA99C600CEDE62 /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 		FDA03FCE279A9F7D00C2959D /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD8B6CD727CA447A00E3EB26 /* DownloadWithCombine */,
 				FD8B6CD427CA355200E3EB26 /* DownloadWithEscaping */,
 				FD8B6CCA27CA1EBF00E3EB26 /* CodableBootcamp */,
 				FDC6310A27C2553D001A3600 /* EscapingClosures */,
@@ -469,6 +472,14 @@
 				FD8B6CD527CA356300E3EB26 /* DownloadWithEscaping.swift */,
 			);
 			path = DownloadWithEscaping;
+			sourceTree = "<group>";
+		};
+		FD8B6CD727CA447A00E3EB26 /* DownloadWithCombine */ = {
+			isa = PBXGroup;
+			children = (
+				FD8B6CD827CA448D00E3EB26 /* DownloadWithCombine.swift */,
+			);
+			path = DownloadWithCombine;
 			sourceTree = "<group>";
 		};
 		FD8D6B2F27AFE0D20050FC49 /* LocalNotifications */ = {
@@ -745,6 +756,7 @@
 				FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */,
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,
 				FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */,
+				FD8B6CD927CA448D00E3EB26 /* DownloadWithCombine.swift in Sources */,
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,

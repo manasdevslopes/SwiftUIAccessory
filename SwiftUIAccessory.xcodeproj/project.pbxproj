@@ -22,6 +22,7 @@
 		FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */; };
 		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
+		FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */; };
 		FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */; };
 		FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */; };
 		FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */; };
@@ -97,6 +98,7 @@
 		FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ActionSheets_Modals.swift; sourceTree = "<group>"; };
 		FD424118276A1DDA00BCE60A /* Context_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context_Menu.swift; sourceTree = "<group>"; };
 		FD42411B276A216600BCE60A /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
+		FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 		FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawers.swift; sourceTree = "<group>"; };
 		FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTransition.swift; sourceTree = "<group>"; };
 		FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAutoScrollableHeaderMenu.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD4F789A27CB78D80004FAA8 /* TimerOnReceive */,
 				FD8B6CD727CA447A00E3EB26 /* DownloadWithCombine */,
 				FD8B6CD427CA355200E3EB26 /* DownloadWithEscaping */,
 				FD8B6CCA27CA1EBF00E3EB26 /* CodableBootcamp */,
@@ -319,6 +322,14 @@
 				FD42411B276A216600BCE60A /* ConfirmationDialog.swift */,
 			);
 			path = Confirmation_Dialog;
+			sourceTree = "<group>";
+		};
+		FD4F789A27CB78D80004FAA8 /* TimerOnReceive */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */,
+			);
+			path = TimerOnReceive;
 			sourceTree = "<group>";
 		};
 		FD512DAA2785ADEE00FDB242 /* BottomDrawer */ = {
@@ -716,6 +727,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
+				FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
 				FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */,

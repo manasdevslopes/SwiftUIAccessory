@@ -135,3 +135,8 @@
 
 ![image](https://user-images.githubusercontent.com/43421834/156176318-0a313780-a575-465f-9294-8d989619b64f.png)
 
+
+43. Save, retrieve, delete images from Cache
+
+
+

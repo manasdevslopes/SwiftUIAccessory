@@ -61,6 +61,7 @@
 		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
 		FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */; };
 		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
+		FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */; };
 		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
 		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
 		FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310B27C2554B001A3600 /* EscapingClosures.swift */; };
@@ -139,6 +140,7 @@
 		FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
 		FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestFirst.swift; sourceTree = "<group>"; };
 		FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestSecond.swift; sourceTree = "<group>"; };
+		FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
 		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		FDC6310B27C2554B001A3600 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDB3AA5127CF5FA9009F5EB6 /* CacheBootcamp */,
 				FD6E2DD727CE34A9009602EB /* FileManagers */,
 				FD4F789D27CB94B50004FAA8 /* PublishersSubscribersCombine */,
 				FD4F789A27CB78D80004FAA8 /* TimerOnReceive */,
@@ -583,6 +586,14 @@
 			path = AppStoreReviewRequest;
 			sourceTree = "<group>";
 		};
+		FDB3AA5127CF5FA9009F5EB6 /* CacheBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */,
+			);
+			path = CacheBootcamp;
+			sourceTree = "<group>";
+		};
 		FDC6310427C24833001A3600 /* WeakSelf */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,6 +814,7 @@
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,
+				FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */,
 				FDE9293D27AEA6F20012EE6F /* Reels.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
 				FD8D6B3127AFE0E10050FC49 /* LocalNotifications.swift in Sources */,

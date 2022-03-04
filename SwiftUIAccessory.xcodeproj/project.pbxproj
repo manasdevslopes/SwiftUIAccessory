@@ -82,6 +82,15 @@
 		FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9293E27AEA86B0012EE6F /* ReelsView.swift */; };
 		FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9294027AEB7BA0012EE6F /* Reel.swift */; };
 		FDE9294327AEB9540012EE6F /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9294227AEB9540012EE6F /* CustomVideoPlayer.swift */; };
+		FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */; };
+		FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */; };
+		FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */; };
+		FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3C127D2089000DEF0FE /* PhotoModelDataService.swift */; };
+		FDFCB3C427D2168900DEF0FE /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3C327D2168900DEF0FE /* DownloadingImagesRow.swift */; };
+		FDFCB3C727D21E6F00DEF0FE /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3C627D21E6F00DEF0FE /* DownloadingImageView.swift */; };
+		FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3C827D21F9100DEF0FE /* ImageLoadingViewModel.swift */; };
+		FDFCB3CB27D228B100DEF0FE /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3CA27D228B100DEF0FE /* PhotoModelCacheManager.swift */; };
+		FDFCB3CD27D22D4400DEF0FE /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3CC27D22D4400DEF0FE /* PhotoModelFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,6 +170,15 @@
 		FDE9293E27AEA86B0012EE6F /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
 		FDE9294027AEB7BA0012EE6F /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
 		FDE9294227AEB9540012EE6F /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesCombine.swift; sourceTree = "<group>"; };
+		FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesCombineViewModel.swift; sourceTree = "<group>"; };
+		FDFCB3C127D2089000DEF0FE /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		FDFCB3C327D2168900DEF0FE /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		FDFCB3C627D21E6F00DEF0FE /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		FDFCB3C827D21F9100DEF0FE /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		FDFCB3CA27D228B100DEF0FE /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		FDFCB3CC27D22D4400DEF0FE /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +246,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDFCB3B627D2032800DEF0FE /* DownloadImagesCombine */,
 				FDB3AA5127CF5FA9009F5EB6 /* CacheBootcamp */,
 				FD6E2DD727CE34A9009602EB /* FileManagers */,
 				FD4F789D27CB94B50004FAA8 /* PublishersSubscribersCombine */,
@@ -680,6 +699,54 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FDFCB3B627D2032800DEF0FE /* DownloadImagesCombine */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCB3BA27D2034400DEF0FE /* Utilities */,
+				FDFCB3B927D2033E00DEF0FE /* ViewModel */,
+				FDFCB3B827D2033900DEF0FE /* Views */,
+				FDFCB3B727D2033400DEF0FE /* Models */,
+			);
+			path = DownloadImagesCombine;
+			sourceTree = "<group>";
+		};
+		FDFCB3B727D2033400DEF0FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDFCB3B827D2033900DEF0FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */,
+				FDFCB3C327D2168900DEF0FE /* DownloadingImagesRow.swift */,
+				FDFCB3C627D21E6F00DEF0FE /* DownloadingImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDFCB3B927D2033E00DEF0FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */,
+				FDFCB3C827D21F9100DEF0FE /* ImageLoadingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDFCB3BA27D2034400DEF0FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCB3C127D2089000DEF0FE /* PhotoModelDataService.swift */,
+				FDFCB3CA27D228B100DEF0FE /* PhotoModelCacheManager.swift */,
+				FDFCB3CC27D22D4400DEF0FE /* PhotoModelFileManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -777,17 +844,24 @@
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
+				FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
 				FD8B6CD627CA356300E3EB26 /* DownloadWithEscaping.swift in Sources */,
 				FDCC5869276CB96000B3114B /* Home.swift in Sources */,
 				FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */,
+				FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */,
+				FDFCB3CB27D228B100DEF0FE /* PhotoModelCacheManager.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
+				FDFCB3CD27D22D4400DEF0FE /* PhotoModelFileManager.swift in Sources */,
+				FDFCB3C427D2168900DEF0FE /* DownloadingImagesRow.swift in Sources */,
 				FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */,
 				FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */,
+				FDFCB3C727D21E6F00DEF0FE /* DownloadingImageView.swift in Sources */,
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,
 				FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */,
+				FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */,
 				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD24D7B327709979002A1340 /* Popover.swift in Sources */,
 				FD8B6CCF27CA2DAE00E3EB26 /* CodableBootcamp1.swift in Sources */,
@@ -796,6 +870,8 @@
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
+				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
+				FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */,
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,
 				FD7E75862796D83500762FCE /* DragGestures.swift in Sources */,
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,

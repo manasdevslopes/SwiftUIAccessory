@@ -65,6 +65,7 @@
 		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
 		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
 		FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310B27C2554B001A3600 /* EscapingClosures.swift */; };
+		FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9DDC227DCAF89003FD978 /* LiquidSwipe.swift */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
@@ -153,6 +154,7 @@
 		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		FDC6310B27C2554B001A3600 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
+		FDC9DDC227DCAF89003FD978 /* LiquidSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipe.swift; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDC9DDC127DCAF79003FD978 /* LiquidSwipe */,
 				FDFCB3B627D2032800DEF0FE /* DownloadImagesCombine */,
 				FDB3AA5127CF5FA9009F5EB6 /* CacheBootcamp */,
 				FD6E2DD727CE34A9009602EB /* FileManagers */,
@@ -637,6 +640,14 @@
 			path = EscapingClosures;
 			sourceTree = "<group>";
 		};
+		FDC9DDC127DCAF79003FD978 /* LiquidSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				FDC9DDC227DCAF89003FD978 /* LiquidSwipe.swift */,
+			);
+			path = LiquidSwipe;
+			sourceTree = "<group>";
+		};
 		FDCC5867276CB72F00B3114B /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
@@ -870,6 +881,7 @@
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
+				FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */,
 				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
 				FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */,
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,

@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ScratchCardEffect: View {
     @State var onFinish: Bool = false
+    @State private var scaledIt: Double = 1
     
     var body: some View {
         VStack {
-            ScratchCardView(cursorSize: 50, onFinish: $onFinish) {
+            ScratchCardView(cursorSize: 50, onFinish: $onFinish, scaledIt: $scaledIt) {
                 // Body Content
                 VStack {
                     Image("trophy")
@@ -62,6 +63,7 @@ struct ScratchCardEffect: View {
                 
                 Button(action: {
                     onFinish = false
+                    scaledIt = 1
                 }) {
                     Image("Manas")
                         .resizable()
@@ -87,11 +89,12 @@ struct ScratchCardView<Content: View, OverlayView: View>: View {
     var content: Content
     var overlayView: OverlayView
     
-    init(cursorSize: CGFloat, onFinish: Binding<Bool>, @ViewBuilder content: @escaping () -> Content, @ViewBuilder overlayView: @escaping () -> OverlayView) {
+    init(cursorSize: CGFloat, onFinish: Binding<Bool>, scaledIt: Binding<Double>, @ViewBuilder content: @escaping () -> Content, @ViewBuilder overlayView: @escaping () -> OverlayView) {
         self.content = content()
         self.overlayView = overlayView()
         self.cursorSize = cursorSize
         self._onFinish = onFinish
+        self._scaledIt = scaledIt
     }
     
     // For Scratch Effect....
@@ -104,6 +107,8 @@ struct ScratchCardView<Content: View, OverlayView: View>: View {
     // Customisation and on finish
     var cursorSize: CGFloat
     @Binding var onFinish: Bool
+    
+    @Binding var scaledIt: Double
     
     var body: some View {
         ZStack {
@@ -138,9 +143,10 @@ struct ScratchCardView<Content: View, OverlayView: View>: View {
                             }
                         })
                         .onEnded({ value in
-                            withAnimation {
+                            withAnimation(.easeInOut) {
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                     onFinish = true
+                                    scaledIt = Double(1.2)
                                 }
                             }
                         })
@@ -148,6 +154,7 @@ struct ScratchCardView<Content: View, OverlayView: View>: View {
         }
         .frame(width: 300, height: 300)
         .cornerRadius(20)
+        .scaleEffect(x: CGFloat(scaledIt), y: CGFloat(scaledIt), anchor: .center).animation(.easeInOut, value: scaledIt)
         .onChange(of: onFinish) { value in
             if !onFinish && !points.isEmpty {
                 withAnimation(.easeInOut) {

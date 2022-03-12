@@ -24,10 +24,10 @@ struct Loading: View {
             Circle().fill(Color.red).frame(width:30, height: 30)
         }
         .onAppear {
-//            withAnimation(Animation.linear(duration: 1.5).repeatForever(autoreverses: false)) {
-//                self.animate.toggle()
-//            }
-            self.animate.toggle()
+            withAnimation(Animation.linear(duration: 1.5).repeatForever(autoreverses: true)) {
+                self.animate.toggle()
+            }
+//            self.animate.toggle()
         }
         .animation(Animation.linear(duration: 1.5).repeatForever(autoreverses: true), value: animate)
 //        .animation(Animation.linear(duration: 1.5).repeatForever(autoreverses: true))

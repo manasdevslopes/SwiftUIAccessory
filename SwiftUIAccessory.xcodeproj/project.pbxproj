@@ -12,6 +12,8 @@
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
 		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
+		FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A869427DF572D00392CBE /* ViewModifiers.swift */; };
+		FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */; };
 		FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */; };
 		FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FF2768BE1A00BCE60A /* ContentView.swift */; };
 		FD4241022768BE1E00BCE60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4241012768BE1E00BCE60A /* Assets.xcassets */; };
@@ -100,6 +102,8 @@
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
+		FD2A869427DF572D00392CBE /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessoryApp.swift; sourceTree = "<group>"; };
 		FD4240FF2768BE1A00BCE60A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -220,6 +224,22 @@
 			path = HashableProtocol;
 			sourceTree = "<group>";
 		};
+		FD2A869327DF571C00392CBE /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FD2A869427DF572D00392CBE /* ViewModifiers.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		FD2A869627DF5CF500392CBE /* ButtonStylesBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */,
+			);
+			path = ButtonStylesBootcamp;
+			sourceTree = "<group>";
+		};
 		FD4240F12768BE1A00BCE60A = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +268,8 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD2A869627DF5CF500392CBE /* ButtonStylesBootcamp */,
+				FD2A869327DF571C00392CBE /* ViewModifiers */,
 				FDC9DDC127DCAF79003FD978 /* LiquidSwipe */,
 				FDFCB3B627D2032800DEF0FE /* DownloadImagesCombine */,
 				FDB3AA5127CF5FA9009F5EB6 /* CacheBootcamp */,
@@ -839,6 +861,7 @@
 			files = (
 				FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */,
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
+				FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */,
 				FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
@@ -897,6 +920,7 @@
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
+				FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,

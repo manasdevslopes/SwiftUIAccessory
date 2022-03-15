@@ -145,5 +145,6 @@
 45. Liquid swipe screen animation
 46. Custom View Modifiers
 47. Custom Button Styles
-48. 
+48. Custom AnyTransition
+49. 
 

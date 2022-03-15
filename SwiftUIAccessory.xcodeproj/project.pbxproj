@@ -63,6 +63,7 @@
 		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
 		FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */; };
 		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
+		FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA91FDD27E0759400AD1FE8 /* AnyTransitions.swift */; };
 		FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */; };
 		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
 		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
@@ -154,6 +155,7 @@
 		FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
 		FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestFirst.swift; sourceTree = "<group>"; };
 		FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestSecond.swift; sourceTree = "<group>"; };
+		FDA91FDD27E0759400AD1FE8 /* AnyTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitions.swift; sourceTree = "<group>"; };
 		FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
 		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDA91FDC27E0758700AD1FE8 /* AnyTransitions */,
 				FD2A869627DF5CF500392CBE /* ButtonStylesBootcamp */,
 				FD2A869327DF571C00392CBE /* ViewModifiers */,
 				FDC9DDC127DCAF79003FD978 /* LiquidSwipe */,
@@ -630,6 +633,14 @@
 			path = AppStoreReviewRequest;
 			sourceTree = "<group>";
 		};
+		FDA91FDC27E0758700AD1FE8 /* AnyTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				FDA91FDD27E0759400AD1FE8 /* AnyTransitions.swift */,
+			);
+			path = AnyTransitions;
+			sourceTree = "<group>";
+		};
 		FDB3AA5127CF5FA9009F5EB6 /* CacheBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -921,6 +932,7 @@
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
 				FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */,
+				FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,

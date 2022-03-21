@@ -90,6 +90,7 @@
 		FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8EF127E86C5500BEB122 /* MatchedGeometryEffects2.swift */; };
 		FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8EF427E8717400BEB122 /* CustomShapes.swift */; };
 		FDEB8EF827E879B200BEB122 /* CustomShapesWithArcsQuadCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8EF727E879B200BEB122 /* CustomShapesWithArcsQuadCurves.swift */; };
+		FDEB8EFB27E88F4C00BEB122 /* AnimateCustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8EFA27E88F4C00BEB122 /* AnimateCustomShapes.swift */; };
 		FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */; };
 		FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */; };
 		FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */; };
@@ -186,6 +187,7 @@
 		FDEB8EF127E86C5500BEB122 /* MatchedGeometryEffects2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffects2.swift; sourceTree = "<group>"; };
 		FDEB8EF427E8717400BEB122 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		FDEB8EF727E879B200BEB122 /* CustomShapesWithArcsQuadCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesWithArcsQuadCurves.swift; sourceTree = "<group>"; };
+		FDEB8EFA27E88F4C00BEB122 /* AnimateCustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCustomShapes.swift; sourceTree = "<group>"; };
 		FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesCombine.swift; sourceTree = "<group>"; };
 		FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesCombineViewModel.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDEB8EF927E88F3900BEB122 /* AnimateCustomShapes */,
 				FDEB8EF627E8798800BEB122 /* CustomShapesWithArcsQuadCurves  */,
 				FDEB8EF327E8716500BEB122 /* CustomShapes */,
 				FDEB8EEE27E865F600BEB122 /* MatchedGeometryEffect */,
@@ -779,6 +782,14 @@
 			path = "CustomShapesWithArcsQuadCurves ";
 			sourceTree = "<group>";
 		};
+		FDEB8EF927E88F3900BEB122 /* AnimateCustomShapes */ = {
+			isa = PBXGroup;
+			children = (
+				FDEB8EFA27E88F4C00BEB122 /* AnimateCustomShapes.swift */,
+			);
+			path = AnimateCustomShapes;
+			sourceTree = "<group>";
+		};
 		FDFCB3B627D2032800DEF0FE /* DownloadImagesCombine */ = {
 			isa = PBXGroup;
 			children = (
@@ -972,6 +983,7 @@
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
 				FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */,
 				FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */,
+				FDEB8EFB27E88F4C00BEB122 /* AnimateCustomShapes.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,

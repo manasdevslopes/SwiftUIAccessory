@@ -149,5 +149,6 @@
 49. MatchedGeometryEffects
 50. Custom Shapes
 51. Custom Shapes With Arcs & Quad Curves
-52. 
+52. Animate Custom Shapes
+53. 
 

@@ -148,5 +148,6 @@
 48. Custom AnyTransition
 49. MatchedGeometryEffects
 50. Custom Shapes
-51. 
+51. Custom Shapes With Arcs & Quad Curves
+52. 
 

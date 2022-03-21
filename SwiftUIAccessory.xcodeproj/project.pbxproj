@@ -86,6 +86,8 @@
 		FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9293E27AEA86B0012EE6F /* ReelsView.swift */; };
 		FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9294027AEB7BA0012EE6F /* Reel.swift */; };
 		FDE9294327AEB9540012EE6F /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9294227AEB9540012EE6F /* CustomVideoPlayer.swift */; };
+		FDEB8EF027E8660200BEB122 /* MatchedGeometryEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8EEF27E8660200BEB122 /* MatchedGeometryEffects.swift */; };
+		FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8EF127E86C5500BEB122 /* MatchedGeometryEffects2.swift */; };
 		FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */; };
 		FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */; };
 		FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */; };
@@ -178,6 +180,8 @@
 		FDE9293E27AEA86B0012EE6F /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
 		FDE9294027AEB7BA0012EE6F /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
 		FDE9294227AEB9540012EE6F /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		FDEB8EEF27E8660200BEB122 /* MatchedGeometryEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffects.swift; sourceTree = "<group>"; };
+		FDEB8EF127E86C5500BEB122 /* MatchedGeometryEffects2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffects2.swift; sourceTree = "<group>"; };
 		FDFCB3BB27D2037A00DEF0FE /* DownloadImagesCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesCombine.swift; sourceTree = "<group>"; };
 		FDFCB3BD27D2064400DEF0FE /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		FDFCB3BF27D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesCombineViewModel.swift; sourceTree = "<group>"; };
@@ -270,6 +274,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDEB8EEE27E865F600BEB122 /* MatchedGeometryEffect */,
 				FDA91FDC27E0758700AD1FE8 /* AnyTransitions */,
 				FD2A869627DF5CF500392CBE /* ButtonStylesBootcamp */,
 				FD2A869327DF571C00392CBE /* ViewModifiers */,
@@ -743,6 +748,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FDEB8EEE27E865F600BEB122 /* MatchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FDEB8EEF27E8660200BEB122 /* MatchedGeometryEffects.swift */,
+				FDEB8EF127E86C5500BEB122 /* MatchedGeometryEffects2.swift */,
+			);
+			path = MatchedGeometryEffect;
+			sourceTree = "<group>";
+		};
 		FDFCB3B627D2032800DEF0FE /* DownloadImagesCombine */ = {
 			isa = PBXGroup;
 			children = (
@@ -895,6 +909,7 @@
 				FD8B6CD627CA356300E3EB26 /* DownloadWithEscaping.swift in Sources */,
 				FDCC5869276CB96000B3114B /* Home.swift in Sources */,
 				FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */,
+				FDEB8EF027E8660200BEB122 /* MatchedGeometryEffects.swift in Sources */,
 				FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */,
 				FDFCB3CB27D228B100DEF0FE /* PhotoModelCacheManager.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
@@ -915,6 +930,7 @@
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
+				FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */,
 				FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */,
 				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
 				FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */,

@@ -13,16 +13,23 @@ struct MagnificationGestures: View {
     
     var body: some View {
         
+        
+        VStack(spacing: 10) {
+            HStack {
+                Circle().frame(width: 35, height: 35)
+                Text("Manas Vijaywargiya")
+                Spacer()
+                Image(systemName: "ellipsis")
+            }
+            .padding()
             
-            VStack(spacing: 10) {
-                HStack {
-                    Circle().frame(width: 35, height: 35)
-                    Text("Manas Vijaywargiya")
-                    Spacer()
-                    Image(systemName: "ellipsis")
-                }
-                .padding()
-                Rectangle().frame(height: 300)
+            VStack {
+                
+                //Rectangle().frame(height: 300)
+                Image("manas_iosdev")
+                    .resizable()
+                    .frame(height: 300)
+                    .scaledToFit()
                     .overlay(
                         Text("\(currentAmount)")
                             .foregroundColor(Color.red)
@@ -39,11 +46,11 @@ struct MagnificationGestures: View {
                                 } else {
                                     currentAmount = 1.52
                                 }
-    //                                currentAmount = currentAmount < 1.32 ? value - 1 : currentAmount < 0 ? 0 : 1.32
-                               
+                                //                                currentAmount = currentAmount < 1.32 ? value - 1 : currentAmount < 0 ? 0 : 1.32
                                 
                                 
-    //                            currentAmount = value - 1
+                                
+                                //                            currentAmount = value - 1
                             }
                             .onEnded { value in
                                 withAnimation(.spring()) {
@@ -51,6 +58,7 @@ struct MagnificationGestures: View {
                                 }
                             }
                     )
+                    .zIndex(1000)
                 HStack {
                     Image(systemName: "heart.fill")
                     Image(systemName: "text.bubble.fill")
@@ -62,24 +70,25 @@ struct MagnificationGestures: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.horizontal)
             }
-            
-            
-       
-//        Text("Hello, World!")
-//            .font(.title)
-//            .padding(40)
-//            .background(Color.red.cornerRadius(10))
-//            .scaleEffect(1 + currentAmount + lastAmount)
-//            .gesture(
-//                MagnificationGesture()
-//                    .onChanged { value in
-//                        currentAmount = value - 1
-//                    }
-//                    .onEnded { value in
-//                        lastAmount += currentAmount
-//                        currentAmount = 0
-//                    }
-//            )
+        }
+        
+        
+        
+        //        Text("Hello, World!")
+        //            .font(.title)
+        //            .padding(40)
+        //            .background(Color.red.cornerRadius(10))
+        //            .scaleEffect(1 + currentAmount + lastAmount)
+        //            .gesture(
+        //                MagnificationGesture()
+        //                    .onChanged { value in
+        //                        currentAmount = value - 1
+        //                    }
+        //                    .onEnded { value in
+        //                        lastAmount += currentAmount
+        //                        currentAmount = 0
+        //                    }
+        //            )
     }
 }
 

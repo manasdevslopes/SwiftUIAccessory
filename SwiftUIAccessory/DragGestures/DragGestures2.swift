@@ -66,7 +66,7 @@ struct MySignUpView: View {
                 .resizable().scaledToFit()
                 .frame(width: 100, height: 100)
             
-            Text("This is the description of our app. This is my favourite SwiftUI course and i recommend to all of my friends to subscribe to Swiftful Thinking!")
+            Text("Please follow me on Instagram @manas_iosdev for more content.")
                 .multilineTextAlignment(.center)
             
             Text("CREATE AN ACCOUNT")

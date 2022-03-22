@@ -10,6 +10,7 @@
 		FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */; };
 		FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */; };
 		FD22621127E9A1A50033E3C1 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */; };
+		FD22621427E9AB3C0033E3C1 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */; };
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
 		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
@@ -107,6 +108,7 @@
 		FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreads.swift; sourceTree = "<group>"; };
 		FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsViewModel.swift; sourceTree = "<group>"; };
 		FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
@@ -229,6 +231,14 @@
 			path = Generics;
 			sourceTree = "<group>";
 		};
+		FD22621227E9AB2E0033E3C1 /* ViewBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */,
+			);
+			path = ViewBuilders;
+			sourceTree = "<group>";
+		};
 		FD24D7AF27709762002A1340 /* CustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +300,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD22621227E9AB2E0033E3C1 /* ViewBuilders */,
 				FD22620F27E9A18D0033E3C1 /* Generics */,
 				FDEB8EF927E88F3900BEB122 /* AnimateCustomShapes */,
 				FDEB8EF627E8798800BEB122 /* CustomShapesWithArcsQuadCurves  */,
@@ -954,6 +965,7 @@
 				FDCC5869276CB96000B3114B /* Home.swift in Sources */,
 				FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */,
 				FDEB8EF027E8660200BEB122 /* MatchedGeometryEffects.swift in Sources */,
+				FD22621427E9AB3C0033E3C1 /* ViewBuilders.swift in Sources */,
 				FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */,
 				FDFCB3CB27D228B100DEF0FE /* PhotoModelCacheManager.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,

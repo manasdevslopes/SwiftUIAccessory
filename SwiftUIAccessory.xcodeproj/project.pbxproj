@@ -11,6 +11,9 @@
 		FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */; };
 		FD22621127E9A1A50033E3C1 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */; };
 		FD22621427E9AB3C0033E3C1 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */; };
+		FD22621727E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621627E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift */; };
+		FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621827E9C7D20033E3C1 /* GeometryPreferenceKey.swift */; };
+		FD22621B27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621A27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
 		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
@@ -109,6 +112,9 @@
 		FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsViewModel.swift; sourceTree = "<group>"; };
 		FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
+		FD22621627E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		FD22621827E9C7D20033E3C1 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
+		FD22621A27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
@@ -239,6 +245,16 @@
 			path = ViewBuilders;
 			sourceTree = "<group>";
 		};
+		FD22621527E9C1ED0033E3C1 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				FD22621627E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift */,
+				FD22621827E9C7D20033E3C1 /* GeometryPreferenceKey.swift */,
+				FD22621A27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
 		FD24D7AF27709762002A1340 /* CustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +316,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD22621527E9C1ED0033E3C1 /* PreferenceKey */,
 				FD22621227E9AB2E0033E3C1 /* ViewBuilders */,
 				FD22620F27E9A18D0033E3C1 /* Generics */,
 				FDEB8EF927E88F3900BEB122 /* AnimateCustomShapes */,
@@ -942,6 +959,7 @@
 				FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */,
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
 				FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */,
+				FD22621727E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift in Sources */,
 				FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
@@ -956,6 +974,7 @@
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
+				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
 				FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */,
@@ -994,6 +1013,7 @@
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,
 				FD7E75862796D83500762FCE /* DragGestures.swift in Sources */,
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
+				FD22621B27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */,
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,

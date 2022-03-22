@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */; };
 		FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */; };
+		FD22621127E9A1A50033E3C1 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */; };
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
 		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
@@ -105,6 +106,7 @@
 /* Begin PBXFileReference section */
 		FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreads.swift; sourceTree = "<group>"; };
 		FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsViewModel.swift; sourceTree = "<group>"; };
+		FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
@@ -219,6 +221,14 @@
 			path = BackgroundThreads;
 			sourceTree = "<group>";
 		};
+		FD22620F27E9A18D0033E3C1 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
 		FD24D7AF27709762002A1340 /* CustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +290,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD22620F27E9A18D0033E3C1 /* Generics */,
 				FDEB8EF927E88F3900BEB122 /* AnimateCustomShapes */,
 				FDEB8EF627E8798800BEB122 /* CustomShapesWithArcsQuadCurves  */,
 				FDEB8EF327E8716500BEB122 /* CustomShapes */,
@@ -957,6 +968,7 @@
 				FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */,
 				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD24D7B327709979002A1340 /* Popover.swift in Sources */,
+				FD22621127E9A1A50033E3C1 /* GenericsBootcamp.swift in Sources */,
 				FD8B6CCF27CA2DAE00E3EB26 /* CodableBootcamp1.swift in Sources */,
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
 				FDE9294327AEB9540012EE6F /* CustomVideoPlayer.swift in Sources */,

@@ -153,5 +153,6 @@
 53. Generics for Model and View
 54. @ViewBuilder with Generics
 55. Used Cases of PreferenceKey to extract values from child views to Parent View
-56. 
+56. A Custom Tab Bar
+57. 
 

@@ -151,5 +151,6 @@
 51. Custom Shapes With Arcs & Quad Curves
 52. Animate Custom Shapes
 53. Generics for Model and View
-54. 
+54. @ViewBuilder with Generics
+55. 
 

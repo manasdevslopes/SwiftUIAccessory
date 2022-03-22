@@ -150,5 +150,6 @@
 50. Custom Shapes
 51. Custom Shapes With Arcs & Quad Curves
 52. Animate Custom Shapes
-53. 
+53. Generics for Model and View
+54. 
 

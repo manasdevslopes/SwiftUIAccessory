@@ -155,5 +155,7 @@
 55. Used Cases of PreferenceKey to extract values from child views to Parent View
 56. A Custom Tab Bar
 57. A Custom Navigation Bar & Link
-58. 
+58. UIViewRepresentable - Data transfer from UIKit to SwiftUI View and vice versa
+59. UIViewControllerRepresentable - to convert UIKit controllers to SwiftUI
+60. 
 

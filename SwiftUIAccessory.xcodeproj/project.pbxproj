@@ -38,6 +38,7 @@
 		FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */; };
 		FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */; };
 		FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */; };
+		FD55A4C027EB2068002F595C /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD55A4BF27EB2068002F595C /* UIViewRepresentableBootcamp.swift */; };
 		FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */; };
 		FD59243B277335DE00EF524F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59243A277335DE00EF524F /* Tabs.swift */; };
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
@@ -151,6 +152,7 @@
 		FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersSubscribersCombine.swift; sourceTree = "<group>"; };
 		FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawers.swift; sourceTree = "<group>"; };
 		FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTransition.swift; sourceTree = "<group>"; };
+		FD55A4BF27EB2068002F595C /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAutoScrollableHeaderMenu.swift; sourceTree = "<group>"; };
 		FD59243A277335DE00EF524F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD55A4BE27EB2055002F595C /* UIViewRepresentableBootcamp */,
 				FDC84A4327EAF91D005790B6 /* CustomNavBar */,
 				FD22621C27E9E6E20033E3C1 /* CustomTabBar */,
 				FD22621527E9C1ED0033E3C1 /* PreferenceKey */,
@@ -499,6 +502,14 @@
 				FD512DB12785E3F700FDB242 /* CustomViewTransition.swift */,
 			);
 			path = CustomViewTransition;
+			sourceTree = "<group>";
+		};
+		FD55A4BE27EB2055002F595C /* UIViewRepresentableBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				FD55A4BF27EB2068002F595C /* UIViewRepresentableBootcamp.swift */,
+			);
+			path = UIViewRepresentableBootcamp;
 			sourceTree = "<group>";
 		};
 		FD592435277334F900EF524F /* AnimatedAutoScrollableHeaderMenu */ = {
@@ -1021,6 +1032,7 @@
 				FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */,
 				FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */,
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
+				FD55A4C027EB2068002F595C /* UIViewRepresentableBootcamp.swift in Sources */,
 				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,

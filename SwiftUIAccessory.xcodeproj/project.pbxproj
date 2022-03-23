@@ -78,6 +78,12 @@
 		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
 		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
 		FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310B27C2554B001A3600 /* EscapingClosures.swift */; };
+		FDC84A4527EAF957005790B6 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4427EAF957005790B6 /* AppNavBarView.swift */; };
+		FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4627EAFAB7005790B6 /* CustomNavBarView.swift */; };
+		FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4827EAFE62005790B6 /* CustomNavBarContainerView.swift */; };
+		FDC84A4B27EB01D5005790B6 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4A27EB01D5005790B6 /* CustomNavView.swift */; };
+		FDC84A4D27EB03EE005790B6 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4C27EB03EE005790B6 /* CustomNavLink.swift */; };
+		FDC84A4F27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4E27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift */; };
 		FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9DDC227DCAF89003FD978 /* LiquidSwipe.swift */; };
 		FDCC5869276CB96000B3114B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC5868276CB96000B3114B /* Home.swift */; };
 		FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */; };
@@ -185,6 +191,12 @@
 		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		FDC6310B27C2554B001A3600 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
+		FDC84A4427EAF957005790B6 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		FDC84A4627EAFAB7005790B6 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		FDC84A4827EAFE62005790B6 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		FDC84A4A27EB01D5005790B6 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		FDC84A4C27EB03EE005790B6 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		FDC84A4E27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		FDC9DDC227DCAF89003FD978 /* LiquidSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipe.swift; sourceTree = "<group>"; };
 		FDCC5868276CB96000B3114B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FDCC586A276CBA2F00B3114B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
@@ -338,6 +350,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDC84A4327EAF91D005790B6 /* CustomNavBar */,
 				FD22621C27E9E6E20033E3C1 /* CustomTabBar */,
 				FD22621527E9C1ED0033E3C1 /* PreferenceKey */,
 				FD22621227E9AB2E0033E3C1 /* ViewBuilders */,
@@ -749,6 +762,19 @@
 			path = EscapingClosures;
 			sourceTree = "<group>";
 		};
+		FDC84A4327EAF91D005790B6 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				FDC84A4427EAF957005790B6 /* AppNavBarView.swift */,
+				FDC84A4E27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift */,
+				FDC84A4C27EB03EE005790B6 /* CustomNavLink.swift */,
+				FDC84A4A27EB01D5005790B6 /* CustomNavView.swift */,
+				FDC84A4627EAFAB7005790B6 /* CustomNavBarView.swift */,
+				FDC84A4827EAFE62005790B6 /* CustomNavBarContainerView.swift */,
+			);
+			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
 		FDC9DDC127DCAF79003FD978 /* LiquidSwipe */ = {
 			isa = PBXGroup;
 			children = (
@@ -992,8 +1018,10 @@
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FD6E2DD927CE34B7009602EB /* FileManagers.swift in Sources */,
+				FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */,
 				FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */,
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
+				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
@@ -1018,6 +1046,7 @@
 				FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */,
 				FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */,
 				FDFCB3C727D21E6F00DEF0FE /* DownloadingImageView.swift in Sources */,
+				FDC84A4B27EB01D5005790B6 /* CustomNavView.swift in Sources */,
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,
 				FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */,
@@ -1035,6 +1064,7 @@
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
 				FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */,
 				FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */,
+				FDC84A4527EAF957005790B6 /* AppNavBarView.swift in Sources */,
 				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
 				FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */,
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,
@@ -1043,6 +1073,7 @@
 				FD22621B27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */,
+				FDC84A4F27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,
 				FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */,
 				FD8B6CD927CA448D00E3EB26 /* DownloadWithCombine.swift in Sources */,
@@ -1050,6 +1081,7 @@
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
+				FDC84A4D27EB03EE005790B6 /* CustomNavLink.swift in Sources */,
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
 				FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */,

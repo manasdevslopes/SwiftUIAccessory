@@ -93,6 +93,7 @@
 		FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */; };
 		FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */; };
 		FDE7C72327EC9C6C0077E4B2 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72227EC9C6C0077E4B2 /* ProtocolsBootcamp.swift */; };
+		FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72527ECA7B80077E4B2 /* DependencyInjection.swift */; };
 		FDE9292F27AEA1D90012EE6F /* Reel7.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FDE9292727AEA1D70012EE6F /* Reel7.MP4 */; };
 		FDE9293127AEA1D90012EE6F /* Reel6.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FDE9292927AEA1D80012EE6F /* Reel6.MP4 */; };
 		FDE9293227AEA1D90012EE6F /* Reel5.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FDE9292A27AEA1D80012EE6F /* Reel5.MP4 */; };
@@ -209,6 +210,7 @@
 		FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardEffect.swift; sourceTree = "<group>"; };
 		FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsVibrations.swift; sourceTree = "<group>"; };
 		FDE7C72227EC9C6C0077E4B2 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		FDE7C72527ECA7B80077E4B2 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		FDE9292727AEA1D70012EE6F /* Reel7.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reel7.MP4; sourceTree = "<group>"; };
 		FDE9292927AEA1D80012EE6F /* Reel6.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reel6.MP4; sourceTree = "<group>"; };
 		FDE9292A27AEA1D80012EE6F /* Reel5.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reel5.MP4; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDE7C72427ECA7A80077E4B2 /* DependencyInjection */,
 				FDE7C72127EC9C580077E4B2 /* ProtocolsBootcamp */,
 				FD55A4C127EB2D04002F595C /* UIViewControllerRepresentableBootcamp */,
 				FD55A4BE27EB2055002F595C /* UIViewRepresentableBootcamp */,
@@ -850,6 +853,14 @@
 			path = ProtocolsBootcamp;
 			sourceTree = "<group>";
 		};
+		FDE7C72427ECA7A80077E4B2 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7C72527ECA7B80077E4B2 /* DependencyInjection.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
 		FDE9293727AEA2410012EE6F /* Reels */ = {
 			isa = PBXGroup;
 			children = (
@@ -1058,6 +1069,7 @@
 				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
+				FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,

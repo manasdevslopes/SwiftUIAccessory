@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {    
+struct ContentView: View {
+    let userSignedIn: Bool
     var body: some View {
-        UIViewRepresentableBootcamp()
+        UITestingView(currentUserSignedIn: userSignedIn)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(userSignedIn: true)
     }
 }

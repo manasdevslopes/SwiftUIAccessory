@@ -11,6 +11,10 @@ struct LocalizationBootcamp: View {
     var body: some View {
         NavigationView {
             Form {
+                // MARK: -
+                /* It even works without writing LocalizedStringKey("Username"). Instead write below line
+                   TextField("Username", text: Binding.constant(""))
+                 */
                 TextField(LocalizedStringKey("Username"), text: Binding.constant(""))
                 Section {
                     TextField(LocalizedStringKey("FirstName"), text: Binding.constant(""))

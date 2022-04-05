@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  SwiftUIAccessory
+
+  Created by MANAS VIJAYWARGIYA on 05/04/22.
+  
+*/
+"Registration" = "Registrierung";
+"Username"     = "Benutzername";
+"FirstName"    = "Vorname";
+"LastName"     = "Nachname";
+"SignUp"       = "Registrieren";
+

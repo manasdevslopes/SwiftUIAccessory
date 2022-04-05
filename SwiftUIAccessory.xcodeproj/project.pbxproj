@@ -49,6 +49,8 @@
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
 		FD63812827FC3F9300FFC173 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */; };
 		FD63812B27FC4BC300FFC173 /* AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812A27FC4BC300FFC173 /* AlertTextField.swift */; };
+		FD63812E27FC5AD000FFC173 /* LocalizationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812D27FC5AD000FFC173 /* LocalizationBootcamp.swift */; };
+		FD63813127FC5D9800FFC173 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD63813327FC5D9800FFC173 /* Localizable.strings */; };
 		FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64631D2796AE8B000D4843 /* LongPressGesture.swift */; };
 		FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6463202796B4C1000D4843 /* MagnificationGestures.swift */; };
 		FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */; };
@@ -196,6 +198,9 @@
 		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
 		FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		FD63812A27FC4BC300FFC173 /* AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextField.swift; sourceTree = "<group>"; };
+		FD63812D27FC5AD000FFC173 /* LocalizationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationBootcamp.swift; sourceTree = "<group>"; };
+		FD63813227FC5D9800FFC173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD63813427FC5DAC00FFC173 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FD64631D2796AE8B000D4843 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		FD6463202796B4C1000D4843 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
@@ -437,6 +442,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD63812C27FC5AC000FFC173 /* LocalizationBootcamp */,
 				FD63812927FC4BB600FFC173 /* AlertTextField */,
 				FD63812627FC3F8000FFC173 /* FuturesBootcamp */,
 				FD36C91727F30DFE00C10312 /* AdvancedCombine */,
@@ -669,6 +675,15 @@
 				FD63812A27FC4BC300FFC173 /* AlertTextField.swift */,
 			);
 			path = AlertTextField;
+			sourceTree = "<group>";
+		};
+		FD63812C27FC5AC000FFC173 /* LocalizationBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				FD63812D27FC5AD000FFC173 /* LocalizationBootcamp.swift */,
+				FD63813327FC5D9800FFC173 /* Localizable.strings */,
+			);
+			path = LocalizationBootcamp;
 			sourceTree = "<group>";
 		};
 		FD64631C2796AE51000D4843 /* LongPressGesture */ = {
@@ -1186,6 +1201,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = FD4240F12768BE1A00BCE60A;
 			productRefGroup = FD4240FB2768BE1A00BCE60A /* Products */;
@@ -1205,6 +1221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE9292F27AEA1D90012EE6F /* Reel7.MP4 in Resources */,
+				FD63813127FC5D9800FFC173 /* Localizable.strings in Resources */,
 				FDE9293127AEA1D90012EE6F /* Reel6.MP4 in Resources */,
 				FDE9293227AEA1D90012EE6F /* Reel5.MP4 in Resources */,
 				FDE9293327AEA1D90012EE6F /* Reel1.MP4 in Resources */,
@@ -1314,6 +1331,7 @@
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,
 				FD55A4C327EB2D14002F595C /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				FD7E75862796D83500762FCE /* DragGestures.swift in Sources */,
+				FD63812E27FC5AD000FFC173 /* LocalizationBootcamp.swift in Sources */,
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD22621B27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
@@ -1385,6 +1403,18 @@
 			targetProxy = FDE7C73427ECBA950077E4B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD63813327FC5D9800FFC173 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD63813227FC5D9800FFC173 /* en */,
+				FD63813427FC5DAC00FFC173 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD4241062768BE1E00BCE60A /* Debug */ = {

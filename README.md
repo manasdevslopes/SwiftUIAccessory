@@ -170,6 +170,12 @@
 67. iOS App Localization
 
 
+![image](https://user-images.githubusercontent.com/43421834/161745323-49a69b1d-df20-4e12-8d91-f1840e56fb1c.png)
+![image](https://user-images.githubusercontent.com/43421834/161745116-d7129d94-ae40-42cc-bb3d-f96db1d00c9b.png)
+
+
+68. 
+
 
 
 

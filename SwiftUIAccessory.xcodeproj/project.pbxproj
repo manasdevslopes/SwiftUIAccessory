@@ -48,6 +48,7 @@
 		FD59243B277335DE00EF524F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59243A277335DE00EF524F /* Tabs.swift */; };
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
 		FD63812827FC3F9300FFC173 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */; };
+		FD63812B27FC4BC300FFC173 /* AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812A27FC4BC300FFC173 /* AlertTextField.swift */; };
 		FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64631D2796AE8B000D4843 /* LongPressGesture.swift */; };
 		FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6463202796B4C1000D4843 /* MagnificationGestures.swift */; };
 		FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */; };
@@ -194,6 +195,7 @@
 		FD59243A277335DE00EF524F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
 		FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
+		FD63812A27FC4BC300FFC173 /* AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextField.swift; sourceTree = "<group>"; };
 		FD64631D2796AE8B000D4843 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		FD6463202796B4C1000D4843 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
@@ -435,6 +437,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD63812927FC4BB600FFC173 /* AlertTextField */,
 				FD63812627FC3F8000FFC173 /* FuturesBootcamp */,
 				FD36C91727F30DFE00C10312 /* AdvancedCombine */,
 				FD2EE80827F040850017A483 /* UITesting */,
@@ -658,6 +661,14 @@
 				FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */,
 			);
 			path = FuturesBootcamp;
+			sourceTree = "<group>";
+		};
+		FD63812927FC4BB600FFC173 /* AlertTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FD63812A27FC4BC300FFC173 /* AlertTextField.swift */,
+			);
+			path = AlertTextField;
 			sourceTree = "<group>";
 		};
 		FD64631C2796AE51000D4843 /* LongPressGesture */ = {
@@ -1269,6 +1280,7 @@
 				FDFCB3BC27D2037A00DEF0FE /* DownloadImagesCombine.swift in Sources */,
 				FDFCB3CB27D228B100DEF0FE /* PhotoModelCacheManager.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
+				FD63812B27FC4BC300FFC173 /* AlertTextField.swift in Sources */,
 				FDFCB3CD27D22D4400DEF0FE /* PhotoModelFileManager.swift in Sources */,
 				FDFCB3C427D2168900DEF0FE /* DownloadingImagesRow.swift in Sources */,
 				FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */,

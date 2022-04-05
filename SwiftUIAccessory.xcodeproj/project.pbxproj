@@ -47,6 +47,7 @@
 		FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */; };
 		FD59243B277335DE00EF524F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59243A277335DE00EF524F /* Tabs.swift */; };
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
+		FD63812827FC3F9300FFC173 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */; };
 		FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64631D2796AE8B000D4843 /* LongPressGesture.swift */; };
 		FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6463202796B4C1000D4843 /* MagnificationGestures.swift */; };
 		FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */; };
@@ -192,6 +193,7 @@
 		FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAutoScrollableHeaderMenu.swift; sourceTree = "<group>"; };
 		FD59243A277335DE00EF524F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
+		FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		FD64631D2796AE8B000D4843 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		FD6463202796B4C1000D4843 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
@@ -433,6 +435,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD63812627FC3F8000FFC173 /* FuturesBootcamp */,
 				FD36C91727F30DFE00C10312 /* AdvancedCombine */,
 				FD2EE80827F040850017A483 /* UITesting */,
 				FDE7C72727ECB8030077E4B2 /* UnitTestingBootcamp */,
@@ -647,6 +650,14 @@
 				FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FD63812627FC3F8000FFC173 /* FuturesBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */,
+			);
+			path = FuturesBootcamp;
 			sourceTree = "<group>";
 		};
 		FD64631C2796AE51000D4843 /* LongPressGesture */ = {
@@ -1272,6 +1283,7 @@
 				FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */,
 				FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */,
 				FD24D7B327709979002A1340 /* Popover.swift in Sources */,
+				FD63812827FC3F9300FFC173 /* FuturesBootcamp.swift in Sources */,
 				FD22621127E9A1A50033E3C1 /* GenericsBootcamp.swift in Sources */,
 				FD8B6CCF27CA2DAE00E3EB26 /* CodableBootcamp1.swift in Sources */,
 				FD36C91927F30E1600C10312 /* AdvancedCombine.swift in Sources */,

@@ -21,6 +21,7 @@
 		FD22622227E9ED6E0033E3C1 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22622127E9ED6E0033E3C1 /* CustomTabBarContainerView.swift */; };
 		FD22622427E9F1F10033E3C1 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22622327E9F1F10033E3C1 /* TabBarItemsPreferenceKey.swift */; };
 		FD22622627E9F5840033E3C1 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22622527E9F5840033E3C1 /* TabBarItem.swift */; };
+		FD233F3E27FD862700E346DF /* LampUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD233F3D27FD862700E346DF /* LampUIScreen.swift */; };
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
 		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
@@ -169,6 +170,7 @@
 		FD22622127E9ED6E0033E3C1 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		FD22622327E9F1F10033E3C1 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		FD22622527E9F5840033E3C1 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		FD233F3D27FD862700E346DF /* LampUIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampUIScreen.swift; sourceTree = "<group>"; };
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
@@ -361,6 +363,15 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		FD233F3C27FD854800E346DF /* ComplexUI */ = {
+			isa = PBXGroup;
+			children = (
+				FD233F3D27FD862700E346DF /* LampUIScreen.swift */,
+			);
+			name = ComplexUI;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		FD24D7AF27709762002A1340 /* CustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +453,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD233F3C27FD854800E346DF /* ComplexUI */,
 				FD63812C27FC5AC000FFC173 /* LocalizationBootcamp */,
 				FD63812927FC4BB600FFC173 /* AlertTextField */,
 				FD63812627FC3F8000FFC173 /* FuturesBootcamp */,
@@ -1263,6 +1275,7 @@
 				FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
+				FD233F3E27FD862700E346DF /* LampUIScreen.swift in Sources */,
 				FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */,
 				FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */,
 				FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */,

@@ -89,6 +89,8 @@
 		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
 		FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA91FDD27E0759400AD1FE8 /* AnyTransitions.swift */; };
 		FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */; };
+		FDC3A5E927FF0788005F3002 /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3A5E827FF0788005F3002 /* ColorPickers.swift */; };
+		FDC3A5EB27FF08A8005F3002 /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3A5EA27FF08A8005F3002 /* CustomColorPicker.swift */; };
 		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
 		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
 		FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310B27C2554B001A3600 /* EscapingClosures.swift */; };
@@ -241,6 +243,8 @@
 		FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestSecond.swift; sourceTree = "<group>"; };
 		FDA91FDD27E0759400AD1FE8 /* AnyTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitions.swift; sourceTree = "<group>"; };
 		FDB3AA5227CF5FBB009F5EB6 /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
+		FDC3A5E827FF0788005F3002 /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
+		FDC3A5EA27FF08A8005F3002 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
 		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		FDC6310B27C2554B001A3600 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
@@ -452,6 +456,7 @@
 			children = (
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDC3A5E627FF0774005F3002 /* ColorPickers */,
 				FD233F7F27FDAF7500E346DF /* ComplexUI */,
 				FD63812C27FC5AC000FFC173 /* LocalizationBootcamp */,
 				FD63812927FC4BB600FFC173 /* AlertTextField */,
@@ -902,6 +907,23 @@
 			path = CacheBootcamp;
 			sourceTree = "<group>";
 		};
+		FDC3A5E627FF0774005F3002 /* ColorPickers */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3A5E727FF077A005F3002 /* View */,
+			);
+			path = ColorPickers;
+			sourceTree = "<group>";
+		};
+		FDC3A5E727FF077A005F3002 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3A5E827FF0788005F3002 /* ColorPickers.swift */,
+				FDC3A5EA27FF08A8005F3002 /* CustomColorPicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FDC6310427C24833001A3600 /* WeakSelf */ = {
 			isa = PBXGroup;
 			children = (
@@ -1276,6 +1298,7 @@
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
 				FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */,
 				FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */,
+				FDC3A5E927FF0788005F3002 /* ColorPickers.swift in Sources */,
 				FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
 				FD2EE80A27F0409C0017A483 /* UITestingView.swift in Sources */,
@@ -1341,6 +1364,7 @@
 				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
 				FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */,
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,
+				FDC3A5EB27FF08A8005F3002 /* CustomColorPicker.swift in Sources */,
 				FD55A4C327EB2D14002F595C /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				FD7E75862796D83500762FCE /* DragGestures.swift in Sources */,
 				FD63812E27FC5AD000FFC173 /* LocalizationBootcamp.swift in Sources */,

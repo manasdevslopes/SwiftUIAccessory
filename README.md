@@ -175,7 +175,8 @@
 
 
 68. LampUIScreen Complex UI
-69. 
+69. Custom Color Picker with Image Picker via import PhotoUI framework
+70. 
 
 
 

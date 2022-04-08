@@ -76,6 +76,12 @@
 		FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E3E6427BA99C600CEDE62 /* ArraysBootcamp.swift */; };
 		FD97165728001D2C0061393C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97165628001D2C0061393C /* SplashScreen.swift */; };
 		FD97165928002ADC0061393C /* SplashScreenHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97165828002ADC0061393C /* SplashScreenHomeView.swift */; };
+		FD97165E280046050061393C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97165D280046050061393C /* TabBar.swift */; };
+		FD97166028004B3E0061393C /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97165F28004B3E0061393C /* Today.swift */; };
+		FD97166328004CF00061393C /* TodayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97166228004CF00061393C /* TodayItem.swift */; };
+		FD97166528004F350061393C /* TodayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97166428004F350061393C /* TodayCardView.swift */; };
+		FD971667280055280061393C /* DetailsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD971666280055280061393C /* DetailsViews.swift */; };
+		FD97166A2800578F0061393C /* DetailsViewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9716692800578F0061393C /* DetailsViewsModel.swift */; };
 		FD99DE8B27F0632400248E27 /* SwiftUIAccessary_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD99DE8A27F0632400248E27 /* SwiftUIAccessary_UITests.swift */; };
 		FD99DE8D27F0632400248E27 /* SwiftUIAccessary_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD99DE8C27F0632400248E27 /* SwiftUIAccessary_UITestsLaunchTests.swift */; };
 		FD99DE9427F063B800248E27 /* UITestingView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD99DE9327F063B800248E27 /* UITestingView_UITests.swift */; };
@@ -232,6 +238,12 @@
 		FD97165628001D2C0061393C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		FD97165828002ADC0061393C /* SplashScreenHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenHomeView.swift; sourceTree = "<group>"; };
 		FD97165A28002BE00061393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD97165D280046050061393C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		FD97165F28004B3E0061393C /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		FD97166228004CF00061393C /* TodayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayItem.swift; sourceTree = "<group>"; };
+		FD97166428004F350061393C /* TodayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCardView.swift; sourceTree = "<group>"; };
+		FD971666280055280061393C /* DetailsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViews.swift; sourceTree = "<group>"; };
+		FD9716692800578F0061393C /* DetailsViewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewsModel.swift; sourceTree = "<group>"; };
 		FD99DE8827F0632400248E27 /* SwiftUIAccessary_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAccessary_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD99DE8A27F0632400248E27 /* SwiftUIAccessary_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessary_UITests.swift; sourceTree = "<group>"; };
 		FD99DE8C27F0632400248E27 /* SwiftUIAccessary_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessary_UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -462,6 +474,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD97165B280045C80061393C /* AppsStoreAnimation */,
 				FD97165428001CFD0061393C /* AnimatedSplashScreen */,
 				FDC3A5E627FF0774005F3002 /* ColorPickers */,
 				FD233F7F27FDAF7500E346DF /* ComplexUI */,
@@ -851,6 +864,43 @@
 				FD97165828002ADC0061393C /* SplashScreenHomeView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FD97165B280045C80061393C /* AppsStoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD9716682800577E0061393C /* ViewModel */,
+				FD97166128004CDB0061393C /* Model */,
+				FD97165C280045E50061393C /* View */,
+			);
+			path = AppsStoreAnimation;
+			sourceTree = "<group>";
+		};
+		FD97165C280045E50061393C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD97165D280046050061393C /* TabBar.swift */,
+				FD97165F28004B3E0061393C /* Today.swift */,
+				FD97166428004F350061393C /* TodayCardView.swift */,
+				FD971666280055280061393C /* DetailsViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD97166128004CDB0061393C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD97166228004CF00061393C /* TodayItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD9716682800577E0061393C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD9716692800578F0061393C /* DetailsViewsModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FD99DE8927F0632400248E27 /* SwiftUIAccessary_UITests */ = {
@@ -1322,6 +1372,7 @@
 				FDA03FD8279AD80700C2959D /* Masks.swift in Sources */,
 				FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */,
 				FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */,
+				FD97166528004F350061393C /* TodayCardView.swift in Sources */,
 				FDC3A5E927FF0788005F3002 /* ColorPickers.swift in Sources */,
 				FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */,
 				FD6463212796B4C1000D4843 /* MagnificationGestures.swift in Sources */,
@@ -1337,6 +1388,7 @@
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FDE7C72B27ECB9C00077E4B2 /* UnitTestingBootcampViewViewModel.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
+				FD971667280055280061393C /* DetailsViews.swift in Sources */,
 				FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
@@ -1345,6 +1397,7 @@
 				FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */,
 				FD22621E27E9E6FB0033E3C1 /* AppTabBarView.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
+				FD97166328004CF00061393C /* TodayItem.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
 				FD22622027E9E8770033E3C1 /* CustomTabBarView.swift in Sources */,
 				FD8B6CD627CA356300E3EB26 /* DownloadWithEscaping.swift in Sources */,
@@ -1378,12 +1431,14 @@
 				FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */,
 				FDE9294327AEB9540012EE6F /* CustomVideoPlayer.swift in Sources */,
 				FD22622227E9ED6E0033E3C1 /* CustomTabBarContainerView.swift in Sources */,
+				FD97166A2800578F0061393C /* DetailsViewsModel.swift in Sources */,
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
 				FDE7C72927ECB81E0077E4B2 /* UnitTestingBootcampView.swift in Sources */,
 				FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */,
 				FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */,
+				FD97165E280046050061393C /* TabBar.swift in Sources */,
 				FDC84A4527EAF957005790B6 /* AppNavBarView.swift in Sources */,
 				FD97165728001D2C0061393C /* SplashScreen.swift in Sources */,
 				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
@@ -1406,6 +1461,7 @@
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
+				FD97166028004B3E0061393C /* Today.swift in Sources */,
 				FDC84A4D27EB03EE005790B6 /* CustomNavLink.swift in Sources */,
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,

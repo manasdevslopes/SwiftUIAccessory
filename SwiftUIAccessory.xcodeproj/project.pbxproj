@@ -74,6 +74,8 @@
 		FD8B6CD927CA448D00E3EB26 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CD827CA448D00E3EB26 /* DownloadWithCombine.swift */; };
 		FD8D6B3127AFE0E10050FC49 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */; };
 		FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E3E6427BA99C600CEDE62 /* ArraysBootcamp.swift */; };
+		FD97165728001D2C0061393C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97165628001D2C0061393C /* SplashScreen.swift */; };
+		FD97165928002ADC0061393C /* SplashScreenHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD97165828002ADC0061393C /* SplashScreenHomeView.swift */; };
 		FD99DE8B27F0632400248E27 /* SwiftUIAccessary_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD99DE8A27F0632400248E27 /* SwiftUIAccessary_UITests.swift */; };
 		FD99DE8D27F0632400248E27 /* SwiftUIAccessary_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD99DE8C27F0632400248E27 /* SwiftUIAccessary_UITestsLaunchTests.swift */; };
 		FD99DE9427F063B800248E27 /* UITestingView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD99DE9327F063B800248E27 /* UITestingView_UITests.swift */; };
@@ -227,6 +229,9 @@
 		FD8B6CD827CA448D00E3EB26 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		FD8D6B3027AFE0E10050FC49 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 		FD8E3E6427BA99C600CEDE62 /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
+		FD97165628001D2C0061393C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FD97165828002ADC0061393C /* SplashScreenHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenHomeView.swift; sourceTree = "<group>"; };
+		FD97165A28002BE00061393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FD99DE8827F0632400248E27 /* SwiftUIAccessary_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAccessary_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD99DE8A27F0632400248E27 /* SwiftUIAccessary_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessary_UITests.swift; sourceTree = "<group>"; };
 		FD99DE8C27F0632400248E27 /* SwiftUIAccessary_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessary_UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -454,8 +459,10 @@
 		FD4240FC2768BE1A00BCE60A /* SwiftUIAccessory */ = {
 			isa = PBXGroup;
 			children = (
+				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD97165428001CFD0061393C /* AnimatedSplashScreen */,
 				FDC3A5E627FF0774005F3002 /* ColorPickers */,
 				FD233F7F27FDAF7500E346DF /* ComplexUI */,
 				FD63812C27FC5AC000FFC173 /* LocalizationBootcamp */,
@@ -827,6 +834,23 @@
 				FD8E3E6427BA99C600CEDE62 /* ArraysBootcamp.swift */,
 			);
 			path = ArraysBootcamp;
+			sourceTree = "<group>";
+		};
+		FD97165428001CFD0061393C /* AnimatedSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FD97165528001D1E0061393C /* View */,
+			);
+			path = AnimatedSplashScreen;
+			sourceTree = "<group>";
+		};
+		FD97165528001D1E0061393C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD97165628001D2C0061393C /* SplashScreen.swift */,
+				FD97165828002ADC0061393C /* SplashScreenHomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FD99DE8927F0632400248E27 /* SwiftUIAccessary_UITests */ = {
@@ -1361,6 +1385,7 @@
 				FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */,
 				FDC9DDC327DCAF89003FD978 /* LiquidSwipe.swift in Sources */,
 				FDC84A4527EAF957005790B6 /* AppNavBarView.swift in Sources */,
+				FD97165728001D2C0061393C /* SplashScreen.swift in Sources */,
 				FDFCB3C227D2089000DEF0FE /* PhotoModelDataService.swift in Sources */,
 				FDFCB3C927D21F9100DEF0FE /* ImageLoadingViewModel.swift in Sources */,
 				FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */,
@@ -1371,6 +1396,7 @@
 				FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */,
 				FD22621B27E9CC110033E3C1 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
+				FD97165928002ADC0061393C /* SplashScreenHomeView.swift in Sources */,
 				FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */,
 				FDC84A4F27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,
@@ -1580,9 +1606,9 @@
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAccessory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1609,9 +1635,9 @@
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAccessory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (

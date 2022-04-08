@@ -177,6 +177,7 @@
 68. LampUIScreen Complex UI
 69. Custom Color Picker with Image Picker via import PhotoUI framework
 70. Icon Generator Mac App for iOS/iPadOS/MacOS - https://github.com/manasdevslopes/IconGeneratorMacOSAppSwiftUI
+71. Animated Splash Screen to Home View
 
 
 

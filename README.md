@@ -179,7 +179,10 @@
 70. Icon Generator Mac App for iOS/iPadOS/MacOS - https://github.com/manasdevslopes/IconGeneratorMacOSAppSwiftUI
 71. Animated Splash Screen to Home View
 72. Hero Animation of Apps Store basic
-73. 
+73. InstaFilter UI with CoreImage - CIImage -> CGImage -> UIImage -> SwiftUI Image
+74. 
+
+
 
 
 

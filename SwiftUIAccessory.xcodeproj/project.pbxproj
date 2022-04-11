@@ -11,6 +11,9 @@
 		FD132AEE27EDE13C00D28641 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD132AED27EDE13C00D28641 /* NewMockDataService_Tests.swift */; };
 		FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */; };
 		FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */; };
+		FD1E4BA02804224500A8A4A6 /* ImagePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E4B9F2804224500A8A4A6 /* ImagePickers.swift */; };
+		FD1E4BA228042B4C00A8A4A6 /* FilterCoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E4BA128042B4C00A8A4A6 /* FilterCoreImage.swift */; };
+		FD1E4BA4280437D600A8A4A6 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E4BA3280437D600A8A4A6 /* ImageSaver.swift */; };
 		FD22621127E9A1A50033E3C1 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */; };
 		FD22621427E9AB3C0033E3C1 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */; };
 		FD22621727E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22621627E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift */; };
@@ -170,6 +173,9 @@
 		FD132AED27EDE13C00D28641 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreads.swift; sourceTree = "<group>"; };
 		FD1CEA8E27C1142100BA8262 /* BackgroundThreadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsViewModel.swift; sourceTree = "<group>"; };
+		FD1E4B9F2804224500A8A4A6 /* ImagePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickers.swift; sourceTree = "<group>"; };
+		FD1E4BA128042B4C00A8A4A6 /* FilterCoreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCoreImage.swift; sourceTree = "<group>"; };
+		FD1E4BA3280437D600A8A4A6 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		FD22621027E9A1A50033E3C1 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		FD22621327E9AB3C0033E3C1 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
 		FD22621627E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -346,6 +352,16 @@
 			path = BackgroundThreads;
 			sourceTree = "<group>";
 		};
+		FD1E4B9E2804221800A8A4A6 /* FilterCoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E4B9F2804224500A8A4A6 /* ImagePickers.swift */,
+				FD1E4BA128042B4C00A8A4A6 /* FilterCoreImage.swift */,
+				FD1E4BA3280437D600A8A4A6 /* ImageSaver.swift */,
+			);
+			path = FilterCoreImage;
+			sourceTree = "<group>";
+		};
 		FD22620F27E9A18D0033E3C1 /* Generics */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,6 +490,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD1E4B9E2804221800A8A4A6 /* FilterCoreImage */,
 				FD97165B280045C80061393C /* AppsStoreAnimation */,
 				FD97165428001CFD0061393C /* AnimatedSplashScreen */,
 				FDC3A5E627FF0774005F3002 /* ColorPickers */,
@@ -1390,6 +1407,7 @@
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FD971667280055280061393C /* DetailsViews.swift in Sources */,
 				FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */,
+				FD1E4BA4280437D600A8A4A6 /* ImageSaver.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,
@@ -1432,6 +1450,7 @@
 				FDE9294327AEB9540012EE6F /* CustomVideoPlayer.swift in Sources */,
 				FD22622227E9ED6E0033E3C1 /* CustomTabBarContainerView.swift in Sources */,
 				FD97166A2800578F0061393C /* DetailsViewsModel.swift in Sources */,
+				FD1E4BA228042B4C00A8A4A6 /* FilterCoreImage.swift in Sources */,
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
@@ -1474,6 +1493,7 @@
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,
+				FD1E4BA02804224500A8A4A6 /* ImagePickers.swift in Sources */,
 				FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */,
 				FDE9293D27AEA6F20012EE6F /* Reels.swift in Sources */,
 				FDEB8EF827E879B200BEB122 /* CustomShapesWithArcsQuadCurves.swift in Sources */,
@@ -1663,6 +1683,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUIAccessory/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1692,6 +1713,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUIAccessory/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

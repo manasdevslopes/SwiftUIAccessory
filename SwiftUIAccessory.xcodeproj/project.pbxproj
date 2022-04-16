@@ -50,6 +50,15 @@
 		FD55A4C327EB2D14002F595C /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD55A4C227EB2D14002F595C /* UIViewControllerRepresentableBootcamp.swift */; };
 		FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */; };
 		FD59243B277335DE00EF524F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59243A277335DE00EF524F /* Tabs.swift */; };
+		FD5DE2DA280AB92000CD8863 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2D9280AB92000CD8863 /* ListView.swift */; };
+		FD5DE2DC280ABA4400CD8863 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2DB280ABA4400CD8863 /* ListRowView.swift */; };
+		FD5DE2DE280ABAF100CD8863 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2DD280ABAF100CD8863 /* ItemModel.swift */; };
+		FD5DE2E0280ABC4000CD8863 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2DF280ABC4000CD8863 /* ListViewModel.swift */; };
+		FD5DE2E2280AC04900CD8863 /* HapticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E1280AC04900CD8863 /* HapticsViewModel.swift */; };
+		FD5DE2E4280AC0E600CD8863 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E3280AC0E600CD8863 /* ColorExtensions.swift */; };
+		FD5DE2E6280AC72100CD8863 /* EmptyItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E5280AC72100CD8863 /* EmptyItemView.swift */; };
+		FD5DE2E8280AD34100CD8863 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E7280AD34100CD8863 /* AddView.swift */; };
+		FD5DE2EB280AD66D00CD8863 /* AwesomeToast in Frameworks */ = {isa = PBXBuildFile; productRef = FD5DE2EA280AD66D00CD8863 /* AwesomeToast */; };
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
 		FD63812827FC3F9300FFC173 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */; };
 		FD63812B27FC4BC300FFC173 /* AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812A27FC4BC300FFC173 /* AlertTextField.swift */; };
@@ -213,6 +222,14 @@
 		FD55A4C227EB2D14002F595C /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAutoScrollableHeaderMenu.swift; sourceTree = "<group>"; };
 		FD59243A277335DE00EF524F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		FD5DE2D9280AB92000CD8863 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FD5DE2DB280ABA4400CD8863 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		FD5DE2DD280ABAF100CD8863 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		FD5DE2DF280ABC4000CD8863 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		FD5DE2E1280AC04900CD8863 /* HapticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsViewModel.swift; sourceTree = "<group>"; };
+		FD5DE2E3280AC0E600CD8863 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		FD5DE2E5280AC72100CD8863 /* EmptyItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyItemView.swift; sourceTree = "<group>"; };
+		FD5DE2E7280AD34100CD8863 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBedTimeCircularSlider.swift; sourceTree = "<group>"; };
 		FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		FD63812A27FC4BC300FFC173 /* AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextField.swift; sourceTree = "<group>"; };
@@ -323,6 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5DE2EB280AD66D00CD8863 /* AwesomeToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +508,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD5DE2D5280AB82E00CD8863 /* ToDoList */,
 				FD1E4B9E2804221800A8A4A6 /* FilterCoreImage */,
 				FD97165B280045C80061393C /* AppsStoreAnimation */,
 				FD97165428001CFD0061393C /* AnimatedSplashScreen */,
@@ -696,6 +715,45 @@
 				FD5924362773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FD5DE2D5280AB82E00CD8863 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				FD5DE2D8280AB83C00CD8863 /* Model */,
+				FD5DE2D7280AB83800CD8863 /* ViewModel */,
+				FD5DE2D6280AB83400CD8863 /* View */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		FD5DE2D6280AB83400CD8863 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD5DE2D9280AB92000CD8863 /* ListView.swift */,
+				FD5DE2E5280AC72100CD8863 /* EmptyItemView.swift */,
+				FD5DE2E7280AD34100CD8863 /* AddView.swift */,
+				FD5DE2DB280ABA4400CD8863 /* ListRowView.swift */,
+				FD5DE2E3280AC0E600CD8863 /* ColorExtensions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD5DE2D7280AB83800CD8863 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD5DE2DF280ABC4000CD8863 /* ListViewModel.swift */,
+				FD5DE2E1280AC04900CD8863 /* HapticsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD5DE2D8280AB83C00CD8863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD5DE2DD280ABAF100CD8863 /* ItemModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FD5F405E27AE6859007F4191 /* AppleBedTimeCircularSlider */ = {
@@ -1255,6 +1313,9 @@
 			dependencies = (
 			);
 			name = SwiftUIAccessory;
+			packageProductDependencies = (
+				FD5DE2EA280AD66D00CD8863 /* AwesomeToast */,
+			);
 			productName = SwiftUIAccessory;
 			productReference = FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */;
 			productType = "com.apple.product-type.application";
@@ -1328,6 +1389,9 @@
 				de,
 			);
 			mainGroup = FD4240F12768BE1A00BCE60A;
+			packageReferences = (
+				FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */,
+			);
 			productRefGroup = FD4240FB2768BE1A00BCE60A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1381,6 +1445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */,
+				FD5DE2E4280AC0E600CD8863 /* ColorExtensions.swift in Sources */,
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
 				FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */,
 				FD22621727E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift in Sources */,
@@ -1400,8 +1465,10 @@
 				FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */,
 				FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */,
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
+				FD5DE2E2280AC04900CD8863 /* HapticsViewModel.swift in Sources */,
 				FD55A4C027EB2068002F595C /* UIViewRepresentableBootcamp.swift in Sources */,
 				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,
+				FD5DE2E0280ABC4000CD8863 /* ListViewModel.swift in Sources */,
 				FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */,
 				FDE7C72B27ECB9C00077E4B2 /* UnitTestingBootcampViewViewModel.swift in Sources */,
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
@@ -1412,6 +1479,7 @@
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,
 				FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */,
+				FD5DE2DA280AB92000CD8863 /* ListView.swift in Sources */,
 				FDFCB3C027D2074F00DEF0FE /* DownloadImagesCombineViewModel.swift in Sources */,
 				FD22621E27E9E6FB0033E3C1 /* AppTabBarView.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
@@ -1450,9 +1518,11 @@
 				FDE9294327AEB9540012EE6F /* CustomVideoPlayer.swift in Sources */,
 				FD22622227E9ED6E0033E3C1 /* CustomTabBarContainerView.swift in Sources */,
 				FD97166A2800578F0061393C /* DetailsViewsModel.swift in Sources */,
+				FD5DE2DC280ABA4400CD8863 /* ListRowView.swift in Sources */,
 				FD1E4BA228042B4C00A8A4A6 /* FilterCoreImage.swift in Sources */,
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
+				FD5DE2DE280ABAF100CD8863 /* ItemModel.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
 				FDE7C72927ECB81E0077E4B2 /* UnitTestingBootcampView.swift in Sources */,
 				FDEB8EF227E86C5500BEB122 /* MatchedGeometryEffects2.swift in Sources */,
@@ -1480,6 +1550,7 @@
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
+				FD5DE2E6280AC72100CD8863 /* EmptyItemView.swift in Sources */,
 				FD97166028004B3E0061393C /* Today.swift in Sources */,
 				FDC84A4D27EB03EE005790B6 /* CustomNavLink.swift in Sources */,
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
@@ -1489,6 +1560,7 @@
 				FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */,
 				FDEB8EFB27E88F4C00BEB122 /* AnimateCustomShapes.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
+				FD5DE2E8280AD34100CD8863 /* AddView.swift in Sources */,
 				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
@@ -1845,6 +1917,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/manasdevslopes/AwesomeToastPackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD5DE2EA280AD66D00CD8863 /* AwesomeToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */;
+			productName = AwesomeToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */ = {

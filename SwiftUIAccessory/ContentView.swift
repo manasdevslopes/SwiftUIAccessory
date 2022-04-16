@@ -8,23 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var listVM: ListViewModel = ListViewModel()
+    
     @State var endAnimation: Bool = false
     
     let userSignedIn: Bool
     var body: some View {
         // UITestingView(currentUserSignedIn: userSignedIn)
-        ZStack {
-            // SplashScreenHomeView()
-            LampUIScreen()
-                .offset(y: endAnimation ? 0 : getRect().height)
-            
-            SplashScreen(endAnimation: $endAnimation)
+//        ZStack {
+//            // SplashScreenHomeView()
+//            LampUIScreen()
+//                .offset(y: endAnimation ? 0 : getRect().height)
+//            SplashScreen(endAnimation: $endAnimation)
+//        }
+        
+        NavigationView {
+            ListView()
         }
+        .environmentObject(listVM)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(userSignedIn: true)
+            .environmentObject(ListViewModel())
     }
 }

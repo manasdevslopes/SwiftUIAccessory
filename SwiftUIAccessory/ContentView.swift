@@ -25,6 +25,7 @@ struct ContentView: View {
         NavigationView {
             ListView()
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         .environmentObject(listVM)
     }
 }

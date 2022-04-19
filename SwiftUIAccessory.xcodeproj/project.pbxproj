@@ -76,6 +76,7 @@
 		FD759202280EA2500003DDAF /* Animation404SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */; };
 		FD759205280EA99A0003DDAF /* BellSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759204280EA99A0003DDAF /* BellSwiftUI.swift */; };
 		FD759207280EAEEE0003DDAF /* BicycleAppSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */; };
+		FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */; };
 		FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */; };
 		FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */; };
 		FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */; };
@@ -251,6 +252,7 @@
 		FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation404SwiftUI.swift; sourceTree = "<group>"; };
 		FD759204280EA99A0003DDAF /* BellSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellSwiftUI.swift; sourceTree = "<group>"; };
 		FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleAppSwiftUI.swift; sourceTree = "<group>"; };
+		FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoaderSwiftUI.swift; sourceTree = "<group>"; };
 		FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootCamp.swift; sourceTree = "<group>"; };
 		FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
 		FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -868,6 +870,7 @@
 				FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */,
 				FD759204280EA99A0003DDAF /* BellSwiftUI.swift */,
 				FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */,
+				FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */,
 			);
 			path = UIDesigns;
 			sourceTree = "<group>";
@@ -1482,6 +1485,7 @@
 				FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */,
 				FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */,
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
+				FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */,
 				FD5DE2E2280AC04900CD8863 /* HapticsViewModel.swift in Sources */,
 				FD55A4C027EB2068002F595C /* UIViewRepresentableBootcamp.swift in Sources */,
 				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,

@@ -74,6 +74,7 @@
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
 		FD759202280EA2500003DDAF /* Animation404SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */; };
+		FD759205280EA99A0003DDAF /* BellSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759204280EA99A0003DDAF /* BellSwiftUI.swift */; };
 		FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */; };
 		FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */; };
 		FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */; };
@@ -247,6 +248,7 @@
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation404SwiftUI.swift; sourceTree = "<group>"; };
+		FD759204280EA99A0003DDAF /* BellSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellSwiftUI.swift; sourceTree = "<group>"; };
 		FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootCamp.swift; sourceTree = "<group>"; };
 		FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
 		FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -862,6 +864,7 @@
 			isa = PBXGroup;
 			children = (
 				FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */,
+				FD759204280EA99A0003DDAF /* BellSwiftUI.swift */,
 			);
 			path = UIDesigns;
 			sourceTree = "<group>";
@@ -1581,6 +1584,7 @@
 				FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */,
 				FDE9293D27AEA6F20012EE6F /* Reels.swift in Sources */,
 				FDEB8EF827E879B200BEB122 /* CustomShapesWithArcsQuadCurves.swift in Sources */,
+				FD759205280EA99A0003DDAF /* BellSwiftUI.swift in Sources */,
 				FD4241132769F7B300BCE60A /* DatePickers.swift in Sources */,
 				FD8D6B3127AFE0E10050FC49 /* LocalNotifications.swift in Sources */,
 				FDA03FCF279A9F7D00C2959D /* ScrollViewReaders.swift in Sources */,

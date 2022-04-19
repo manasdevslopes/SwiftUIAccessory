@@ -181,6 +181,9 @@
 72. Hero Animation of Apps Store basic
 73. InstaFilter UI with CoreImage - CIImage -> CGImage -> UIImage -> SwiftUI Image
 74. ToDo List with Userdefaults
+75. UI Designs 
+    1. Animation404SwiftUI
+    2. 
 
 
 

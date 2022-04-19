@@ -77,6 +77,7 @@
 		FD759205280EA99A0003DDAF /* BellSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759204280EA99A0003DDAF /* BellSwiftUI.swift */; };
 		FD759207280EAEEE0003DDAF /* BicycleAppSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */; };
 		FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */; };
+		FD75920B280ED8080003DDAF /* CountdownSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */; };
 		FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */; };
 		FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */; };
 		FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */; };
@@ -253,6 +254,7 @@
 		FD759204280EA99A0003DDAF /* BellSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellSwiftUI.swift; sourceTree = "<group>"; };
 		FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleAppSwiftUI.swift; sourceTree = "<group>"; };
 		FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoaderSwiftUI.swift; sourceTree = "<group>"; };
+		FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownSwiftUI.swift; sourceTree = "<group>"; };
 		FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootCamp.swift; sourceTree = "<group>"; };
 		FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
 		FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -871,6 +873,7 @@
 				FD759204280EA99A0003DDAF /* BellSwiftUI.swift */,
 				FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */,
 				FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */,
+				FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */,
 			);
 			path = UIDesigns;
 			sourceTree = "<group>";
@@ -1565,6 +1568,7 @@
 				FD42410D2768BF4600BCE60A /* CustomLoader.swift in Sources */,
 				FD97165928002ADC0061393C /* SplashScreenHomeView.swift in Sources */,
 				FD8E3E6527BA99C600CEDE62 /* ArraysBootcamp.swift in Sources */,
+				FD75920B280ED8080003DDAF /* CountdownSwiftUI.swift in Sources */,
 				FDC84A4F27EB07A0005790B6 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,
 				FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */,

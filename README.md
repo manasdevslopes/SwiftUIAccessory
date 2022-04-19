@@ -184,7 +184,8 @@
 75. UI Designs 
     1. Animation404SwiftUI
     2. BellSwiftUI
-    3. 
+    3. BicycleAppSwiftUI
+    4. 
 
 
 

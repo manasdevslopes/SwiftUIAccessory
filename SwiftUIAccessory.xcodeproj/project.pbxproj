@@ -50,6 +50,7 @@
 		FD464196280FFA6500325D7C /* ProfileCardSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464195280FFA6500325D7C /* ProfileCardSwiftUI.swift */; };
 		FD464198280FFBC100325D7C /* CardCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464197280FFBC100325D7C /* CardCustomShape.swift */; };
 		FD46419A280FFFFC00325D7C /* SkillCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464199280FFFFC00325D7C /* SkillCardView.swift */; };
+		FD46419C28100D1400325D7C /* LikeButtonSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46419B28100D1400325D7C /* LikeButtonSwiftUI.swift */; };
 		FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */; };
 		FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */; };
 		FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */; };
@@ -235,6 +236,7 @@
 		FD464195280FFA6500325D7C /* ProfileCardSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardSwiftUI.swift; sourceTree = "<group>"; };
 		FD464197280FFBC100325D7C /* CardCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCustomShape.swift; sourceTree = "<group>"; };
 		FD464199280FFFFC00325D7C /* SkillCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCardView.swift; sourceTree = "<group>"; };
+		FD46419B28100D1400325D7C /* LikeButtonSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonSwiftUI.swift; sourceTree = "<group>"; };
 		FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 		FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersSubscribersCombine.swift; sourceTree = "<group>"; };
 		FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawers.swift; sourceTree = "<group>"; };
@@ -912,6 +914,7 @@
 				FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */,
 				FD464189280FE45600325D7C /* CustomDatePickers.swift */,
 				FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */,
+				FD46419B28100D1400325D7C /* LikeButtonSwiftUI.swift */,
 				FD464194280FFA5B00325D7C /* ProfileCardSwiftUI */,
 				FD46418D280FED8000325D7C /* PlacesSwiftUI */,
 			);
@@ -1651,6 +1654,7 @@
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,
 				FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */,
 				FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */,
+				FD46419C28100D1400325D7C /* LikeButtonSwiftUI.swift in Sources */,
 				FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

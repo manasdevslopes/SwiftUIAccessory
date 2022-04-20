@@ -44,6 +44,9 @@
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
 		FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464189280FE45600325D7C /* CustomDatePickers.swift */; };
 		FD46418C280FE92F00325D7C /* InstagramLogoSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */; };
+		FD46418F280FEE4800325D7C /* PlacesSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46418E280FEE4800325D7C /* PlacesSwiftUI.swift */; };
+		FD464191280FEF6C00325D7C /* DrawerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464190280FEF6C00325D7C /* DrawerV.swift */; };
+		FD464193280FF09D00325D7C /* MapViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464192280FF09D00325D7C /* MapViewAnimation.swift */; };
 		FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */; };
 		FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */; };
 		FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */; };
@@ -223,6 +226,9 @@
 		FD42411B276A216600BCE60A /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
 		FD464189280FE45600325D7C /* CustomDatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePickers.swift; sourceTree = "<group>"; };
 		FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramLogoSwiftUI.swift; sourceTree = "<group>"; };
+		FD46418E280FEE4800325D7C /* PlacesSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesSwiftUI.swift; sourceTree = "<group>"; };
+		FD464190280FEF6C00325D7C /* DrawerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerV.swift; sourceTree = "<group>"; };
+		FD464192280FF09D00325D7C /* MapViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAnimation.swift; sourceTree = "<group>"; };
 		FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 		FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersSubscribersCombine.swift; sourceTree = "<group>"; };
 		FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawers.swift; sourceTree = "<group>"; };
@@ -658,6 +664,16 @@
 			path = Confirmation_Dialog;
 			sourceTree = "<group>";
 		};
+		FD46418D280FED8000325D7C /* PlacesSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FD46418E280FEE4800325D7C /* PlacesSwiftUI.swift */,
+				FD464190280FEF6C00325D7C /* DrawerV.swift */,
+				FD464192280FF09D00325D7C /* MapViewAnimation.swift */,
+			);
+			path = PlacesSwiftUI;
+			sourceTree = "<group>";
+		};
 		FD4F789A27CB78D80004FAA8 /* TimerOnReceive */ = {
 			isa = PBXGroup;
 			children = (
@@ -880,6 +896,7 @@
 				FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */,
 				FD464189280FE45600325D7C /* CustomDatePickers.swift */,
 				FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */,
+				FD46418D280FED8000325D7C /* PlacesSwiftUI */,
 			);
 			path = UIDesigns;
 			sourceTree = "<group>";
@@ -1515,6 +1532,7 @@
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
 				FD97166328004CF00061393C /* TodayItem.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
+				FD464193280FF09D00325D7C /* MapViewAnimation.swift in Sources */,
 				FD22622027E9E8770033E3C1 /* CustomTabBarView.swift in Sources */,
 				FD8B6CD627CA356300E3EB26 /* DownloadWithEscaping.swift in Sources */,
 				FDCC5869276CB96000B3114B /* Home.swift in Sources */,
@@ -1579,6 +1597,7 @@
 				FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */,
 				FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */,
 				FD8B6CD927CA448D00E3EB26 /* DownloadWithCombine.swift in Sources */,
+				FD464191280FEF6C00325D7C /* DrawerV.swift in Sources */,
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
@@ -1590,6 +1609,7 @@
 				FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */,
 				FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */,
 				FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */,
+				FD46418F280FEE4800325D7C /* PlacesSwiftUI.swift in Sources */,
 				FD22622627E9F5840033E3C1 /* TabBarItem.swift in Sources */,
 				FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */,
 				FDEB8EFB27E88F4C00BEB122 /* AnimateCustomShapes.swift in Sources */,

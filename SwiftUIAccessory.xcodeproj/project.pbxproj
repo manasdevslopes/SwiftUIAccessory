@@ -42,6 +42,7 @@
 		FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */; };
 		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
+		FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464189280FE45600325D7C /* CustomDatePickers.swift */; };
 		FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */; };
 		FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */; };
 		FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */; };
@@ -219,6 +220,7 @@
 		FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ActionSheets_Modals.swift; sourceTree = "<group>"; };
 		FD424118276A1DDA00BCE60A /* Context_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context_Menu.swift; sourceTree = "<group>"; };
 		FD42411B276A216600BCE60A /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
+		FD464189280FE45600325D7C /* CustomDatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePickers.swift; sourceTree = "<group>"; };
 		FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 		FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersSubscribersCombine.swift; sourceTree = "<group>"; };
 		FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawers.swift; sourceTree = "<group>"; };
@@ -874,6 +876,7 @@
 				FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */,
 				FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */,
 				FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */,
+				FD464189280FE45600325D7C /* CustomDatePickers.swift */,
 			);
 			path = UIDesigns;
 			sourceTree = "<group>";
@@ -1577,6 +1580,7 @@
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
+				FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */,
 				FD5DE2E6280AC72100CD8863 /* EmptyItemView.swift in Sources */,
 				FD97166028004B3E0061393C /* Today.swift in Sources */,
 				FDC84A4D27EB03EE005790B6 /* CustomNavLink.swift in Sources */,

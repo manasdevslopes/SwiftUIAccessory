@@ -190,7 +190,8 @@
     6. CustomDatePickers
     7. InstagramLogoSwiftUI
     8. PlacesSwiftUI
-    9. 
+    9. ProfileCardSwiftUI
+    10. 
 
 
 

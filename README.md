@@ -188,7 +188,8 @@
     4. loadingCircle
     5. CountdownSwiftUI
     6. CustomDatePickers
-    7. 
+    7. InstagramLogoSwiftUI
+    8. 
 
 
 

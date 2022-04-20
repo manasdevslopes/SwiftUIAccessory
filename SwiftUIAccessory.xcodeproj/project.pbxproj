@@ -43,6 +43,7 @@
 		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
 		FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464189280FE45600325D7C /* CustomDatePickers.swift */; };
+		FD46418C280FE92F00325D7C /* InstagramLogoSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */; };
 		FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */; };
 		FD4F789F27CB95780004FAA8 /* PublishersSubscribersCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */; };
 		FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */; };
@@ -221,6 +222,7 @@
 		FD424118276A1DDA00BCE60A /* Context_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context_Menu.swift; sourceTree = "<group>"; };
 		FD42411B276A216600BCE60A /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
 		FD464189280FE45600325D7C /* CustomDatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePickers.swift; sourceTree = "<group>"; };
+		FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramLogoSwiftUI.swift; sourceTree = "<group>"; };
 		FD4F789B27CB78EC0004FAA8 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
 		FD4F789E27CB95780004FAA8 /* PublishersSubscribersCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersSubscribersCombine.swift; sourceTree = "<group>"; };
 		FD512DAB2785AE1200FDB242 /* BottomDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawers.swift; sourceTree = "<group>"; };
@@ -877,6 +879,7 @@
 				FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */,
 				FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */,
 				FD464189280FE45600325D7C /* CustomDatePickers.swift */,
+				FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */,
 			);
 			path = UIDesigns;
 			sourceTree = "<group>";
@@ -1597,6 +1600,7 @@
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,
 				FD1E4BA02804224500A8A4A6 /* ImagePickers.swift in Sources */,
+				FD46418C280FE92F00325D7C /* InstagramLogoSwiftUI.swift in Sources */,
 				FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */,
 				FDE9293D27AEA6F20012EE6F /* Reels.swift in Sources */,
 				FDEB8EF827E879B200BEB122 /* CustomShapesWithArcsQuadCurves.swift in Sources */,

@@ -140,6 +140,11 @@
 		FDCC586E276CBBF600B3114B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC586D276CBBF600B3114B /* Post.swift */; };
 		FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */; };
 		FDD6477F27AACBC000B573FC /* HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */; };
+		FDE4289B281D249700C12F95 /* CompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4289A281D249700C12F95 /* CompositionalLayout.swift */; };
+		FDE4289D281D24F300C12F95 /* CompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4289C281D24F300C12F95 /* CompositionalView.swift */; };
+		FDE4289F281D301B00C12F95 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4289E281D301B00C12F95 /* ImageModel.swift */; };
+		FDE428A1281D30B600C12F95 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE428A0281D30B600C12F95 /* ImageFetcher.swift */; };
+		FDE428A4281D4ADA00C12F95 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */; };
 		FDE7C72327EC9C6C0077E4B2 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72227EC9C6C0077E4B2 /* ProtocolsBootcamp.swift */; };
 		FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72527ECA7B80077E4B2 /* DependencyInjection.swift */; };
 		FDE7C72927ECB81E0077E4B2 /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72827ECB81E0077E4B2 /* UnitTestingBootcampView.swift */; };
@@ -328,6 +333,10 @@
 		FDCC586D276CBBF600B3114B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FDD356592779CF3A00A3B34D /* ScratchCardEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardEffect.swift; sourceTree = "<group>"; };
 		FDD6477E27AACBC000B573FC /* HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsVibrations.swift; sourceTree = "<group>"; };
+		FDE4289A281D249700C12F95 /* CompositionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayout.swift; sourceTree = "<group>"; };
+		FDE4289C281D24F300C12F95 /* CompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalView.swift; sourceTree = "<group>"; };
+		FDE4289E281D301B00C12F95 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		FDE428A0281D30B600C12F95 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		FDE7C72227EC9C6C0077E4B2 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		FDE7C72527ECA7B80077E4B2 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		FDE7C72827ECB81E0077E4B2 /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
@@ -368,6 +377,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE428A4281D4ADA00C12F95 /* SDWebImageSwiftUI in Frameworks */,
 				FD5DE2EB280AD66D00CD8863 /* AwesomeToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +546,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDE42896281D245E00C12F95 /* CompositionalLayout */,
 				FD759200280EA2260003DDAF /* UIDesigns */,
 				FD5DE2D5280AB82E00CD8863 /* ToDoList */,
 				FD1E4B9E2804221800A8A4A6 /* FilterCoreImage */,
@@ -1218,6 +1229,41 @@
 			path = HapticsVibrations;
 			sourceTree = "<group>";
 		};
+		FDE42896281D245E00C12F95 /* CompositionalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FDE42899281D247700C12F95 /* ViewModel */,
+				FDE42898281D247300C12F95 /* Model */,
+				FDE42897281D246F00C12F95 /* View */,
+			);
+			path = CompositionalLayout;
+			sourceTree = "<group>";
+		};
+		FDE42897281D246F00C12F95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4289A281D249700C12F95 /* CompositionalLayout.swift */,
+				FDE4289C281D24F300C12F95 /* CompositionalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDE42898281D247300C12F95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4289E281D301B00C12F95 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDE42899281D247700C12F95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDE428A0281D30B600C12F95 /* ImageFetcher.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FDE7C72127EC9C580077E4B2 /* ProtocolsBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -1381,6 +1427,7 @@
 			name = SwiftUIAccessory;
 			packageProductDependencies = (
 				FD5DE2EA280AD66D00CD8863 /* AwesomeToast */,
+				FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */,
 			);
 			productName = SwiftUIAccessory;
 			productReference = FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */;
@@ -1457,6 +1504,7 @@
 			mainGroup = FD4240F12768BE1A00BCE60A;
 			packageReferences = (
 				FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */,
+				FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = FD4240FB2768BE1A00BCE60A /* Products */;
 			projectDirPath = "";
@@ -1542,6 +1590,7 @@
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FD971667280055280061393C /* DetailsViews.swift in Sources */,
 				FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */,
+				FDE4289F281D301B00C12F95 /* ImageModel.swift in Sources */,
 				FD1E4BA4280437D600A8A4A6 /* ImageSaver.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
@@ -1566,6 +1615,7 @@
 				FD233F4327FD9F9200E346DF /* LampUIScreen.swift in Sources */,
 				FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */,
 				FD63812B27FC4BC300FFC173 /* AlertTextField.swift in Sources */,
+				FDE4289B281D249700C12F95 /* CompositionalLayout.swift in Sources */,
 				FDFCB3CD27D22D4400DEF0FE /* PhotoModelFileManager.swift in Sources */,
 				FDFCB3C427D2168900DEF0FE /* DownloadingImagesRow.swift in Sources */,
 				FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */,
@@ -1575,6 +1625,7 @@
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDE7C72327EC9C6C0077E4B2 /* ProtocolsBootcamp.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,
+				FDE4289D281D24F300C12F95 /* CompositionalView.swift in Sources */,
 				FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */,
 				FD22622427E9F1F10033E3C1 /* TabBarItemsPreferenceKey.swift in Sources */,
 				FDFCB3BE27D2064400DEF0FE /* PhotoModel.swift in Sources */,
@@ -1636,6 +1687,7 @@
 				FD22622627E9F5840033E3C1 /* TabBarItem.swift in Sources */,
 				FDA91FDE27E0759400AD1FE8 /* AnyTransitions.swift in Sources */,
 				FDEB8EFB27E88F4C00BEB122 /* AnimateCustomShapes.swift in Sources */,
+				FDE428A1281D30B600C12F95 /* ImageFetcher.swift in Sources */,
 				FDCC586B276CBA2F00B3114B /* StaggeredGrid.swift in Sources */,
 				FD5DE2E8280AD34100CD8863 /* AddView.swift in Sources */,
 				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
@@ -2007,6 +2059,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -2014,6 +2074,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */;
 			productName = AwesomeToast;
+		};
+		FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 

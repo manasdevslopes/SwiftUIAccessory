@@ -22,11 +22,13 @@ struct ContentView: View {
 //            SplashScreen(endAnimation: $endAnimation)
 //        }
         
-        NavigationView {
-            ListView()
-        }
-        .navigationViewStyle(StackNavigationViewStyle())
-        .environmentObject(listVM)
+//        NavigationView {
+//            ListView()
+//        }
+//        .navigationViewStyle(StackNavigationViewStyle())
+//        .environmentObject(listVM)
+        
+        CompositionalLayout()
     }
 }
 

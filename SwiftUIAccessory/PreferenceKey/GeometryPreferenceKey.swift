@@ -14,6 +14,8 @@ struct GeometryPreferenceKey: View {
         VStack {
             Spacer()
             
+            Text("\(rectSize.width)")
+            
             Text("Hello, World!")
                 .frame(width: rectSize.width, height: rectSize.height)
                 .background(Color.blue)

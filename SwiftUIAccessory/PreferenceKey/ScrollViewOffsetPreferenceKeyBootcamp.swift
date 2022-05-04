@@ -49,8 +49,9 @@ struct ScrollViewOffsetPreferenceKeyBootcamp: View {
             .padding()
         }
         .overlay(Text("\(scrollViewOffset)"))
-        .overlay(newbarLayer
-                    .opacity(scrollViewOffset < 40 ? 1.0 : 0.0)
+        .overlay(navBarLayer
+            .opacity(scrollViewOffset < 40 ? 1.0 : 0.0)
+            .animation(.easeInOut, value: scrollViewOffset)
                  , alignment: .top)
     }
 }
@@ -77,7 +78,7 @@ extension ScrollViewOffsetPreferenceKeyBootcamp {
         }
     }
     
-    private var newbarLayer: some View {
+    private var navBarLayer: some View {
         Text(title)
             .font(.headline)
             .frame(maxWidth: .infinity)

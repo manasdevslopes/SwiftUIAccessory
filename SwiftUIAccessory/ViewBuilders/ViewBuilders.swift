@@ -71,6 +71,8 @@ struct ViewBuilders: View {
                     Image(systemName: "flame")
                 }
             }
+            // Empty content view ()->Content Closure
+            HeaderViewGeneric(title: "Hi") {}
             Spacer()
         }
     }

@@ -42,6 +42,7 @@ protocol ButtonPressedProtocol {
 protocol ButtonDataSourceProtocol: ButtonTextProtocol, ButtonPressedProtocol {
     // protocols inherit from other protocols too
 }
+
 class DefaultDataSource: ButtonDataSourceProtocol {
     var buttonText: String = "Protocols are awesome!"
     

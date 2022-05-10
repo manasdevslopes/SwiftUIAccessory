@@ -82,6 +82,10 @@
 		FD6E2DD927CE34B7009602EB /* FileManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E2DD827CE34B7009602EB /* FileManagers.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
 		FD6EDB26276B67F50022F45A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB25276B67F50022F45A /* ButtonStyles.swift */; };
+		FD72FDA3282A7E5B00F9766F /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72FDA2282A7E5B00F9766F /* QRCodeGenerator.swift */; };
+		FD72FDA5282A7E8300F9766F /* QRCodeGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72FDA4282A7E8300F9766F /* QRCodeGenerate.swift */; };
+		FD72FDAB282A884A00F9766F /* ImageSaveResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72FDAA282A884A00F9766F /* ImageSaveResult.swift */; };
+		FD72FDB0282A890500F9766F /* QRCodeImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72FDAF282A890500F9766F /* QRCodeImageSaver.swift */; };
 		FD759202280EA2500003DDAF /* Animation404SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */; };
 		FD759205280EA99A0003DDAF /* BellSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759204280EA99A0003DDAF /* BellSwiftUI.swift */; };
 		FD759207280EAEEE0003DDAF /* BicycleAppSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */; };
@@ -273,6 +277,10 @@
 		FD6E2DD827CE34B7009602EB /* FileManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagers.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		FD6EDB25276B67F50022F45A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		FD72FDA2282A7E5B00F9766F /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		FD72FDA4282A7E8300F9766F /* QRCodeGenerate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerate.swift; sourceTree = "<group>"; };
+		FD72FDAA282A884A00F9766F /* ImageSaveResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaveResult.swift; sourceTree = "<group>"; };
+		FD72FDAF282A890500F9766F /* QRCodeImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeImageSaver.swift; sourceTree = "<group>"; };
 		FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation404SwiftUI.swift; sourceTree = "<group>"; };
 		FD759204280EA99A0003DDAF /* BellSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellSwiftUI.swift; sourceTree = "<group>"; };
 		FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleAppSwiftUI.swift; sourceTree = "<group>"; };
@@ -546,6 +554,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD72FDA1282A7E3D00F9766F /* QRCodeGenerator */,
 				FDE42896281D245E00C12F95 /* CompositionalLayout */,
 				FD759200280EA2260003DDAF /* UIDesigns */,
 				FD5DE2D5280AB82E00CD8863 /* ToDoList */,
@@ -913,6 +922,49 @@
 				FD6EDB25276B67F50022F45A /* ButtonStyles.swift */,
 			);
 			path = ButtonsStyles;
+			sourceTree = "<group>";
+		};
+		FD72FDA1282A7E3D00F9766F /* QRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				FD72FDA9282A881B00F9766F /* Helper */,
+				FD72FDA8282A881800F9766F /* View */,
+				FD72FDA7282A881300F9766F /* ViewModel */,
+				FD72FDA6282A880F00F9766F /* Model */,
+			);
+			path = QRCodeGenerator;
+			sourceTree = "<group>";
+		};
+		FD72FDA6282A880F00F9766F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD72FDAA282A884A00F9766F /* ImageSaveResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD72FDA7282A881300F9766F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD72FDAF282A890500F9766F /* QRCodeImageSaver.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD72FDA8282A881800F9766F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD72FDA2282A7E5B00F9766F /* QRCodeGenerator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD72FDA9282A881B00F9766F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FD72FDA4282A7E8300F9766F /* QRCodeGenerate.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		FD759200280EA2260003DDAF /* UIDesigns */ = {
@@ -1590,6 +1642,7 @@
 				FD64631E2796AE8B000D4843 /* LongPressGesture.swift in Sources */,
 				FD971667280055280061393C /* DetailsViews.swift in Sources */,
 				FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */,
+				FD72FDA5282A7E8300F9766F /* QRCodeGenerate.swift in Sources */,
 				FDE4289F281D301B00C12F95 /* ImageModel.swift in Sources */,
 				FD1E4BA4280437D600A8A4A6 /* ImageSaver.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
@@ -1601,6 +1654,7 @@
 				FD22621E27E9E6FB0033E3C1 /* AppTabBarView.swift in Sources */,
 				FD59243B277335DE00EF524F /* Tabs.swift in Sources */,
 				FD97166328004CF00061393C /* TodayItem.swift in Sources */,
+				FD72FDA3282A7E5B00F9766F /* QRCodeGenerator.swift in Sources */,
 				FD4241102768C67600BCE60A /* HeroSegmentControl.swift in Sources */,
 				FD464193280FF09D00325D7C /* MapViewAnimation.swift in Sources */,
 				FD22622027E9E8770033E3C1 /* CustomTabBarView.swift in Sources */,
@@ -1622,6 +1676,7 @@
 				FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */,
 				FDFCB3C727D21E6F00DEF0FE /* DownloadingImageView.swift in Sources */,
 				FDC84A4B27EB01D5005790B6 /* CustomNavView.swift in Sources */,
+				FD72FDB0282A890500F9766F /* QRCodeImageSaver.swift in Sources */,
 				FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */,
 				FDE7C72327EC9C6C0077E4B2 /* ProtocolsBootcamp.swift in Sources */,
 				FDCC586E276CBBF600B3114B /* Post.swift in Sources */,
@@ -1692,6 +1747,7 @@
 				FD5DE2E8280AD34100CD8863 /* AddView.swift in Sources */,
 				FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */,
 				FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */,
+				FD72FDAB282A884A00F9766F /* ImageSaveResult.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,
 				FD1E4BA02804224500A8A4A6 /* ImagePickers.swift in Sources */,

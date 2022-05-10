@@ -28,7 +28,8 @@ struct ContentView: View {
 //        .navigationViewStyle(StackNavigationViewStyle())
 //        .environmentObject(listVM)
         
-        CompositionalLayout()
+//        CompositionalLayout()
+      QRCodeGenerator()
     }
 }
 

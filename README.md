@@ -195,7 +195,8 @@
     11. 
 
 76. Compositional Layout with Api Call in pagination
-77. 
+77. QRCode Generator and saved to Photos App 
+78. 
 
 
 

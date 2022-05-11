@@ -196,7 +196,9 @@
 
 76. Compositional Layout with Api Call in pagination
 77. QRCode Generator and saved to Photos App 
-78. 
+78. Do-Try-Catch-Throws 
+79. Download Image w/ @escaping (Revised) / combine (Revised) / Async-Await (New)
+80. 
 
 
 

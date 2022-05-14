@@ -67,7 +67,6 @@
 		FD5DE2E4280AC0E600CD8863 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E3280AC0E600CD8863 /* ColorExtensions.swift */; };
 		FD5DE2E6280AC72100CD8863 /* EmptyItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E5280AC72100CD8863 /* EmptyItemView.swift */; };
 		FD5DE2E8280AD34100CD8863 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DE2E7280AD34100CD8863 /* AddView.swift */; };
-		FD5DE2EB280AD66D00CD8863 /* AwesomeToast in Frameworks */ = {isa = PBXBuildFile; productRef = FD5DE2EA280AD66D00CD8863 /* AwesomeToast */; };
 		FD5F406127AE68BF007F4191 /* AppleBedTimeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F406027AE68BF007F4191 /* AppleBedTimeCircularSlider.swift */; };
 		FD63812827FC3F9300FFC173 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812727FC3F9300FFC173 /* FuturesBootcamp.swift */; };
 		FD63812B27FC4BC300FFC173 /* AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD63812A27FC4BC300FFC173 /* AlertTextField.swift */; };
@@ -78,6 +77,7 @@
 		FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */; };
 		FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */; };
 		FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */; };
+		FD690FF2282FAAB200217349 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD690FF1282FAAB200217349 /* AsyncAwait.swift */; };
 		FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */; };
 		FD6E2DD927CE34B7009602EB /* FileManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E2DD827CE34B7009602EB /* FileManagers.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
@@ -124,6 +124,7 @@
 		FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FDA279AE69200C2959D /* SoundEffects.swift */; };
 		FDA03FDE279AEA4400C2959D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDC279AEA4400C2959D /* badum.mp3 */; };
 		FDA03FDF279AEA4400C2959D /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDD279AEA4400C2959D /* tada.mp3 */; };
+		FDA48DAF282E5AB1006CC628 /* AwesomeToast in Frameworks */ = {isa = PBXBuildFile; productRef = FDA48DAE282E5AB1006CC628 /* AwesomeToast */; };
 		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
 		FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */; };
 		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
@@ -275,6 +276,7 @@
 		FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
 		FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		FD68BE4227BBEFC400399326 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		FD690FF1282FAAB200217349 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		FD6E2DD827CE34B7009602EB /* FileManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagers.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
@@ -389,8 +391,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA48DAF282E5AB1006CC628 /* AwesomeToast in Frameworks */,
 				FDE428A4281D4ADA00C12F95 /* SDWebImageSwiftUI in Frameworks */,
-				FD5DE2EB280AD66D00CD8863 /* AwesomeToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +560,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD690FF0282FAA6400217349 /* AsyncAwait */,
 				FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */,
 				FD76A8E8282B778E00BF0CC6 /* DoTryCatchThrows */,
 				FD72FDA1282A7E3D00F9766F /* QRCodeGenerator */,
@@ -896,6 +899,14 @@
 				FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */,
 			);
 			path = CoreDataBootCamp;
+			sourceTree = "<group>";
+		};
+		FD690FF0282FAA6400217349 /* AsyncAwait */ = {
+			isa = PBXGroup;
+			children = (
+				FD690FF1282FAAB200217349 /* AsyncAwait.swift */,
+			);
+			path = AsyncAwait;
 			sourceTree = "<group>";
 		};
 		FD6BA5782773491500BA7F5D /* ViewModifiers */ = {
@@ -1500,8 +1511,8 @@
 			);
 			name = SwiftUIAccessory;
 			packageProductDependencies = (
-				FD5DE2EA280AD66D00CD8863 /* AwesomeToast */,
 				FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */,
+				FDA48DAE282E5AB1006CC628 /* AwesomeToast */,
 			);
 			productName = SwiftUIAccessory;
 			productReference = FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */;
@@ -1577,8 +1588,8 @@
 			);
 			mainGroup = FD4240F12768BE1A00BCE60A;
 			packageReferences = (
-				FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */,
 				FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FDA48DAD282E5AB1006CC628 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */,
 			);
 			productRefGroup = FD4240FB2768BE1A00BCE60A /* Products */;
 			projectDirPath = "";
@@ -1656,6 +1667,7 @@
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
 				FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */,
 				FD5DE2E2280AC04900CD8863 /* HapticsViewModel.swift in Sources */,
+				FD690FF2282FAAB200217349 /* AsyncAwait.swift in Sources */,
 				FD55A4C027EB2068002F595C /* UIViewRepresentableBootcamp.swift in Sources */,
 				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,
 				FD5DE2E0280ABC4000CD8863 /* ListViewModel.swift in Sources */,
@@ -2131,7 +2143,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */ = {
+		FDA48DAD282E5AB1006CC628 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/manasdevslopes/AwesomeToastPackage.git";
 			requirement = {
@@ -2150,9 +2162,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FD5DE2EA280AD66D00CD8863 /* AwesomeToast */ = {
+		FDA48DAE282E5AB1006CC628 /* AwesomeToast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FD5DE2E9280AD66D00CD8863 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */;
+			package = FDA48DAD282E5AB1006CC628 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */;
 			productName = AwesomeToast;
 		};
 		FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */ = {

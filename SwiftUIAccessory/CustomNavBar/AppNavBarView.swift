@@ -20,6 +20,7 @@ struct AppNavBarView: View {
             .customNavigationSubtitle("Subtitle here")
         ) {
           Text("Navigate")
+            .foregroundColor(.white)
         }
       }
         // .customNavigationTitle("Custom Title")

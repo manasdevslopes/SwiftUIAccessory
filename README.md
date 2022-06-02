@@ -191,7 +191,7 @@
     7. InstagramLogoSwiftUI
     8. PlacesSwiftUI
     9. ProfileCardSwiftUI
-    10.LikeButtonSwiftUI
+    10. LikeButtonSwiftUI
     11. 
 
 76. Compositional Layout with Api Call in pagination

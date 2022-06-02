@@ -29,7 +29,8 @@ struct ContentView: View {
       //        .environmentObject(listVM)
     
       //        CompositionalLayout()
-    QRCodeGenerator()
+//    QRCodeGenerator()
+    WhatsAppImageExpand()
   }
 }
 

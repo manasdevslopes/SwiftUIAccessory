@@ -125,6 +125,8 @@
 		FDA03FDE279AEA4400C2959D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDC279AEA4400C2959D /* badum.mp3 */; };
 		FDA03FDF279AEA4400C2959D /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDD279AEA4400C2959D /* tada.mp3 */; };
 		FDA48DAF282E5AB1006CC628 /* AwesomeToast in Frameworks */ = {isa = PBXBuildFile; productRef = FDA48DAE282E5AB1006CC628 /* AwesomeToast */; };
+		FDA5E2572848CDD6006A3CAA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5E2562848CDD6006A3CAA /* Profile.swift */; };
+		FDA5E2592848D2F4006A3CAA /* WhatsAppImageExpand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5E2582848D2F4006A3CAA /* WhatsAppImageExpand.swift */; };
 		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
 		FDA71E1C27A6B026007E9695 /* AppReviewRequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */; };
 		FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */; };
@@ -325,6 +327,8 @@
 		FDA03FDA279AE69200C2959D /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		FDA03FDC279AEA4400C2959D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		FDA03FDD279AEA4400C2959D /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		FDA5E2562848CDD6006A3CAA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FDA5E2582848D2F4006A3CAA /* WhatsAppImageExpand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppImageExpand.swift; sourceTree = "<group>"; };
 		FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
 		FDA71E1B27A6B026007E9695 /* AppReviewRequestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestFirst.swift; sourceTree = "<group>"; };
 		FDA71E1D27A6B034007E9695 /* AppReviewRequestSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequestSecond.swift; sourceTree = "<group>"; };
@@ -987,6 +991,7 @@
 		FD759200280EA2260003DDAF /* UIDesigns */ = {
 			isa = PBXGroup;
 			children = (
+				FDA5E2532848CDA1006A3CAA /* WhatsAppImageExpand */,
 				FD759201280EA2500003DDAF /* Animation404SwiftUI.swift */,
 				FD759204280EA99A0003DDAF /* BellSwiftUI.swift */,
 				FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */,
@@ -1190,6 +1195,31 @@
 				FDA03FDA279AE69200C2959D /* SoundEffects.swift */,
 			);
 			path = SoundEffects;
+			sourceTree = "<group>";
+		};
+		FDA5E2532848CDA1006A3CAA /* WhatsAppImageExpand */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5E2552848CDCA006A3CAA /* View */,
+				FDA5E2542848CDC6006A3CAA /* Model */,
+			);
+			path = WhatsAppImageExpand;
+			sourceTree = "<group>";
+		};
+		FDA5E2542848CDC6006A3CAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5E2562848CDD6006A3CAA /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDA5E2552848CDCA006A3CAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5E2582848D2F4006A3CAA /* WhatsAppImageExpand.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FDA71E1827A6ACD4007E9695 /* AppStoreReviewRequest */ = {
@@ -1680,6 +1710,7 @@
 				FDE4289F281D301B00C12F95 /* ImageModel.swift in Sources */,
 				FD1E4BA4280437D600A8A4A6 /* ImageSaver.swift in Sources */,
 				FD76A8EA282B786500BF0CC6 /* DoTryCatchThrows.swift in Sources */,
+				FDA5E2572848CDD6006A3CAA /* Profile.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
 				FD1CEA8F27C1142100BA8262 /* BackgroundThreadsViewModel.swift in Sources */,
@@ -1768,6 +1799,7 @@
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */,
+				FDA5E2592848D2F4006A3CAA /* WhatsAppImageExpand.swift in Sources */,
 				FD5DE2E6280AC72100CD8863 /* EmptyItemView.swift in Sources */,
 				FD97166028004B3E0061393C /* Today.swift in Sources */,
 				FDC84A4D27EB03EE005790B6 /* CustomNavLink.swift in Sources */,

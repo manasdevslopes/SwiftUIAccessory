@@ -31,6 +31,7 @@ struct ContentView: View {
       //        CompositionalLayout()
 //    QRCodeGenerator()
     WhatsAppImageExpand()
+//    Copy_PasteText()
   }
 }
 

@@ -42,6 +42,8 @@
 		FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424115276A026700BCE60A /* Alerts_ActionSheets_Modals.swift */; };
 		FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD424118276A1DDA00BCE60A /* Context_Menu.swift */; };
 		FD42411C276A216600BCE60A /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42411B276A216600BCE60A /* ConfirmationDialog.swift */; };
+		FD458AE2287C570600BF7DEB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FD458AE1287C570600BF7DEB /* SDWebImageSwiftUI */; };
+		FD458AE5287C572100BF7DEB /* AwesomeToast in Frameworks */ = {isa = PBXBuildFile; productRef = FD458AE4287C572100BF7DEB /* AwesomeToast */; };
 		FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD464189280FE45600325D7C /* CustomDatePickers.swift */; };
 		FD46418C280FE92F00325D7C /* InstagramLogoSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46418B280FE92F00325D7C /* InstagramLogoSwiftUI.swift */; };
 		FD46418F280FEE4800325D7C /* PlacesSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46418E280FEE4800325D7C /* PlacesSwiftUI.swift */; };
@@ -124,7 +126,6 @@
 		FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA03FDA279AE69200C2959D /* SoundEffects.swift */; };
 		FDA03FDE279AEA4400C2959D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDC279AEA4400C2959D /* badum.mp3 */; };
 		FDA03FDF279AEA4400C2959D /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDA03FDD279AEA4400C2959D /* tada.mp3 */; };
-		FDA48DAF282E5AB1006CC628 /* AwesomeToast in Frameworks */ = {isa = PBXBuildFile; productRef = FDA48DAE282E5AB1006CC628 /* AwesomeToast */; };
 		FDA5E2572848CDD6006A3CAA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5E2562848CDD6006A3CAA /* Profile.swift */; };
 		FDA5E2592848D2F4006A3CAA /* WhatsAppImageExpand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5E2582848D2F4006A3CAA /* WhatsAppImageExpand.swift */; };
 		FDA71E1A27A6AD10007E9695 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA71E1927A6AD10007E9695 /* AppReviewRequest.swift */; };
@@ -137,6 +138,7 @@
 		FDC6310627C24845001A3600 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310527C24845001A3600 /* WeakSelf.swift */; };
 		FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310827C25204001A3600 /* TypeAlias.swift */; };
 		FDC6310C27C2554B001A3600 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6310B27C2554B001A3600 /* EscapingClosures.swift */; };
+		FDC6B2FC28A8E2870033CB69 /* Copy&PasteText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6B2FB28A8E2870033CB69 /* Copy&PasteText.swift */; };
 		FDC84A4527EAF957005790B6 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4427EAF957005790B6 /* AppNavBarView.swift */; };
 		FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4627EAFAB7005790B6 /* CustomNavBarView.swift */; };
 		FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC84A4827EAFE62005790B6 /* CustomNavBarContainerView.swift */; };
@@ -153,7 +155,6 @@
 		FDE4289D281D24F300C12F95 /* CompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4289C281D24F300C12F95 /* CompositionalView.swift */; };
 		FDE4289F281D301B00C12F95 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4289E281D301B00C12F95 /* ImageModel.swift */; };
 		FDE428A1281D30B600C12F95 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE428A0281D30B600C12F95 /* ImageFetcher.swift */; };
-		FDE428A4281D4ADA00C12F95 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */; };
 		FDE7C72327EC9C6C0077E4B2 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72227EC9C6C0077E4B2 /* ProtocolsBootcamp.swift */; };
 		FDE7C72627ECA7B80077E4B2 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72527ECA7B80077E4B2 /* DependencyInjection.swift */; };
 		FDE7C72927ECB81E0077E4B2 /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7C72827ECB81E0077E4B2 /* UnitTestingBootcampView.swift */; };
@@ -339,6 +340,7 @@
 		FDC6310527C24845001A3600 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		FDC6310827C25204001A3600 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		FDC6310B27C2554B001A3600 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
+		FDC6B2FB28A8E2870033CB69 /* Copy&PasteText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy&PasteText.swift"; sourceTree = "<group>"; };
 		FDC84A4427EAF957005790B6 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
 		FDC84A4627EAFAB7005790B6 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 		FDC84A4827EAFE62005790B6 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
@@ -395,8 +397,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA48DAF282E5AB1006CC628 /* AwesomeToast in Frameworks */,
-				FDE428A4281D4ADA00C12F95 /* SDWebImageSwiftUI in Frameworks */,
+				FD458AE5287C572100BF7DEB /* AwesomeToast in Frameworks */,
+				FD458AE2287C570600BF7DEB /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +566,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */,
 				FD690FF0282FAA6400217349 /* AsyncAwait */,
 				FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */,
 				FD76A8E8282B778E00BF0CC6 /* DoTryCatchThrows */,
@@ -1289,6 +1292,14 @@
 			path = EscapingClosures;
 			sourceTree = "<group>";
 		};
+		FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6B2FB28A8E2870033CB69 /* Copy&PasteText.swift */,
+			);
+			path = "Copy&PasteText";
+			sourceTree = "<group>";
+		};
 		FDC84A4327EAF91D005790B6 /* CustomNavBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1541,8 +1552,8 @@
 			);
 			name = SwiftUIAccessory;
 			packageProductDependencies = (
-				FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */,
-				FDA48DAE282E5AB1006CC628 /* AwesomeToast */,
+				FD458AE1287C570600BF7DEB /* SDWebImageSwiftUI */,
+				FD458AE4287C572100BF7DEB /* AwesomeToast */,
 			);
 			productName = SwiftUIAccessory;
 			productReference = FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */;
@@ -1618,8 +1629,8 @@
 			);
 			mainGroup = FD4240F12768BE1A00BCE60A;
 			packageReferences = (
-				FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				FDA48DAD282E5AB1006CC628 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */,
+				FD458AE0287C570600BF7DEB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FD458AE3287C572100BF7DEB /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */,
 			);
 			productRefGroup = FD4240FB2768BE1A00BCE60A /* Products */;
 			projectDirPath = "";
@@ -1691,6 +1702,7 @@
 				FD2EE80A27F0409C0017A483 /* UITestingView.swift in Sources */,
 				FD424119276A1DDA00BCE60A /* Context_Menu.swift in Sources */,
 				FD6E2DD927CE34B7009602EB /* FileManagers.swift in Sources */,
+				FDC6B2FC28A8E2870033CB69 /* Copy&PasteText.swift in Sources */,
 				FD132AEC27EDE0EE00D28641 /* NewMockDataService.swift in Sources */,
 				FDC84A4727EAFAB7005790B6 /* CustomNavBarView.swift in Sources */,
 				FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */,
@@ -2175,17 +2187,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FDA48DAD282E5AB1006CC628 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */ = {
+		FD458AE0287C570600BF7DEB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/manasdevslopes/AwesomeToastPackage.git";
+			repositoryURL = "git@github.com:SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.0;
 			};
 		};
-		FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		FD458AE3287C572100BF7DEB /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:SDWebImage/SDWebImageSwiftUI.git";
+			repositoryURL = "https://github.com/manasdevslopes/AwesomeToastPackage.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.0;
@@ -2194,15 +2206,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FDA48DAE282E5AB1006CC628 /* AwesomeToast */ = {
+		FD458AE1287C570600BF7DEB /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FDA48DAD282E5AB1006CC628 /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */;
-			productName = AwesomeToast;
-		};
-		FDE428A3281D4ADA00C12F95 /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FDE428A2281D4ADA00C12F95 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = FD458AE0287C570600BF7DEB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		FD458AE4287C572100BF7DEB /* AwesomeToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD458AE3287C572100BF7DEB /* XCRemoteSwiftPackageReference "AwesomeToastPackage" */;
+			productName = AwesomeToast;
 		};
 /* End XCSwiftPackageProductDependency section */
 

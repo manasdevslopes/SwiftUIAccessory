@@ -201,6 +201,7 @@
 79. Download Image w/ @escaping (Revised) / combine (Revised) / Async-Await (New)
 80. Async-Await in detail - How does it work?!
 81. Copy & Paste Text
+82. New way of DateFormat in Swift 5.5
 
 
 

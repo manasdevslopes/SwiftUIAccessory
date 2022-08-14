@@ -101,6 +101,7 @@
 		FD7E75832796D56800762FCE /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75822796D56800762FCE /* RotationGestures.swift */; };
 		FD7E75862796D83500762FCE /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75852796D83500762FCE /* DragGestures.swift */; };
 		FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75872796DD7100762FCE /* DragGestures2.swift */; };
+		FD840D5628A91FA5009F430C /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD840D5528A91FA5009F430C /* DateFormat.swift */; };
 		FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CCB27CA1ECB00E3EB26 /* CodableBootcamp.swift */; };
 		FD8B6CCF27CA2DAE00E3EB26 /* CodableBootcamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CCE27CA2DAE00E3EB26 /* CodableBootcamp1.swift */; };
 		FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CD227CA335A00E3EB26 /* CodableBootcamp2.swift */; };
@@ -301,6 +302,7 @@
 		FD7E75822796D56800762FCE /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
 		FD7E75852796D83500762FCE /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		FD7E75872796DD7100762FCE /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
+		FD840D5528A91FA5009F430C /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		FD8B6CCB27CA1ECB00E3EB26 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		FD8B6CCE27CA2DAE00E3EB26 /* CodableBootcamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp1.swift; sourceTree = "<group>"; };
 		FD8B6CD227CA335A00E3EB26 /* CodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp2.swift; sourceTree = "<group>"; };
@@ -566,6 +568,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD840D2028A8E640009F430C /* DateFormat */,
 				FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */,
 				FD690FF0282FAA6400217349 /* AsyncAwait */,
 				FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */,
@@ -1050,6 +1053,14 @@
 				FD7E75872796DD7100762FCE /* DragGestures2.swift */,
 			);
 			path = DragGestures;
+			sourceTree = "<group>";
+		};
+		FD840D2028A8E640009F430C /* DateFormat */ = {
+			isa = PBXGroup;
+			children = (
+				FD840D5528A91FA5009F430C /* DateFormat.swift */,
+			);
+			path = DateFormat;
 			sourceTree = "<group>";
 		};
 		FD8B6CCA27CA1EBF00E3EB26 /* CodableBootcamp */ = {
@@ -1830,6 +1841,7 @@
 				FD72FDAB282A884A00F9766F /* ImageSaveResult.swift in Sources */,
 				FD5924372773352300EF524F /* AnimatedAutoScrollableHeaderMenu.swift in Sources */,
 				FDE9293F27AEA86B0012EE6F /* ReelsView.swift in Sources */,
+				FD840D5628A91FA5009F430C /* DateFormat.swift in Sources */,
 				FD1E4BA02804224500A8A4A6 /* ImagePickers.swift in Sources */,
 				FD46418C280FE92F00325D7C /* InstagramLogoSwiftUI.swift in Sources */,
 				FDB3AA5327CF5FBB009F5EB6 /* CacheBootcamp.swift in Sources */,

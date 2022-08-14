@@ -202,6 +202,8 @@
 80. Async-Await in detail - How does it work?!
 81. Copy & Paste Text
 82. New way of DateFormat in Swift 5.5
+83. Size Classes Basic Example
+84. 
 
 
 

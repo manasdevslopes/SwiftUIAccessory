@@ -102,6 +102,7 @@
 		FD7E75862796D83500762FCE /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75852796D83500762FCE /* DragGestures.swift */; };
 		FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E75872796DD7100762FCE /* DragGestures2.swift */; };
 		FD840D5628A91FA5009F430C /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD840D5528A91FA5009F430C /* DateFormat.swift */; };
+		FD840D5928A9268C009F430C /* SizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD840D5828A9268C009F430C /* SizeClasses.swift */; };
 		FD8B6CCC27CA1ECC00E3EB26 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CCB27CA1ECB00E3EB26 /* CodableBootcamp.swift */; };
 		FD8B6CCF27CA2DAE00E3EB26 /* CodableBootcamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CCE27CA2DAE00E3EB26 /* CodableBootcamp1.swift */; };
 		FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B6CD227CA335A00E3EB26 /* CodableBootcamp2.swift */; };
@@ -303,6 +304,7 @@
 		FD7E75852796D83500762FCE /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		FD7E75872796DD7100762FCE /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
 		FD840D5528A91FA5009F430C /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		FD840D5828A9268C009F430C /* SizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClasses.swift; sourceTree = "<group>"; };
 		FD8B6CCB27CA1ECB00E3EB26 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		FD8B6CCE27CA2DAE00E3EB26 /* CodableBootcamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp1.swift; sourceTree = "<group>"; };
 		FD8B6CD227CA335A00E3EB26 /* CodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp2.swift; sourceTree = "<group>"; };
@@ -568,6 +570,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD840D5728A9267B009F430C /* SizeClasses */,
 				FD840D2028A8E640009F430C /* DateFormat */,
 				FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */,
 				FD690FF0282FAA6400217349 /* AsyncAwait */,
@@ -1061,6 +1064,14 @@
 				FD840D5528A91FA5009F430C /* DateFormat.swift */,
 			);
 			path = DateFormat;
+			sourceTree = "<group>";
+		};
+		FD840D5728A9267B009F430C /* SizeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				FD840D5828A9268C009F430C /* SizeClasses.swift */,
+			);
+			path = SizeClasses;
 			sourceTree = "<group>";
 		};
 		FD8B6CCA27CA1EBF00E3EB26 /* CodableBootcamp */ = {
@@ -1700,6 +1711,7 @@
 				FDA03FDB279AE69200C2959D /* SoundEffects.swift in Sources */,
 				FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */,
 				FD22621727E9C1F90033E3C1 /* PreferenceKeyBootcamp.swift in Sources */,
+				FD840D5928A9268C009F430C /* SizeClasses.swift in Sources */,
 				FD4F789C27CB78EC0004FAA8 /* TimerOnReceive.swift in Sources */,
 				FD464198280FFBC100325D7C /* CardCustomShape.swift in Sources */,
 				FD7E75882796DD7100762FCE /* DragGestures2.swift in Sources */,
@@ -2038,8 +2050,9 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2068,8 +2081,9 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

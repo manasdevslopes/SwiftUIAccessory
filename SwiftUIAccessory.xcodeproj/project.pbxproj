@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0010D728D0D990009C86E5 /* Swift_SwiftUI_Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0010D628D0D990009C86E5 /* Swift_SwiftUI_Logo.swift */; };
 		FD132AEC27EDE0EE00D28641 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD132AEB27EDE0EE00D28641 /* NewMockDataService.swift */; };
 		FD132AEE27EDE13C00D28641 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD132AED27EDE13C00D28641 /* NewMockDataService_Tests.swift */; };
 		FD1CEA8C27C113F600BA8262 /* BackgroundThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */; };
@@ -209,6 +210,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0010D628D0D990009C86E5 /* Swift_SwiftUI_Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_SwiftUI_Logo.swift; sourceTree = "<group>"; };
 		FD132AEB27EDE0EE00D28641 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
 		FD132AED27EDE13C00D28641 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		FD1CEA8B27C113F600BA8262 /* BackgroundThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreads.swift; sourceTree = "<group>"; };
@@ -423,6 +425,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD0010D528D0D85C009C86E5 /* ShapesAndPaths */ = {
+			isa = PBXGroup;
+			children = (
+				FD0010D628D0D990009C86E5 /* Swift_SwiftUI_Logo.swift */,
+			);
+			path = ShapesAndPaths;
+			sourceTree = "<group>";
+		};
 		FD1CEA8A27C113E200BA8262 /* BackgroundThreads */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,6 +580,7 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD0010D528D0D85C009C86E5 /* ShapesAndPaths */,
 				FD840D5728A9267B009F430C /* SizeClasses */,
 				FD840D2028A8E640009F430C /* DateFormat */,
 				FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */,
@@ -1832,6 +1843,7 @@
 				FD424116276A026700BCE60A /* Alerts_ActionSheets_Modals.swift in Sources */,
 				FDD3565A2779CF3A00A3B34D /* ScratchCardEffect.swift in Sources */,
 				FDEB8EF527E8717400BEB122 /* CustomShapes.swift in Sources */,
+				FD0010D728D0D990009C86E5 /* Swift_SwiftUI_Logo.swift in Sources */,
 				FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */,
 				FD46418A280FE45600325D7C /* CustomDatePickers.swift in Sources */,
 				FDA5E2592848D2F4006A3CAA /* WhatsAppImageExpand.swift in Sources */,

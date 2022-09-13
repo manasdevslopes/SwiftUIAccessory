@@ -1,9 +1,9 @@
-//
-//  ContentView.swift
-//  SwiftUIAccessory
-//
-//  Created by MANAS VIJAYWARGIYA on 14/12/21.
-//  Instagram : - @_iosmanas
+  //
+  //  ContentView.swift
+  //  SwiftUIAccessory
+  //
+  //  Created by MANAS VIJAYWARGIYA on 14/12/21.
+  //  Instagram : - @_iosmanas
 
 import SwiftUI
 
@@ -29,18 +29,18 @@ struct ContentView: View {
       //        .environmentObject(listVM)
     
       //        CompositionalLayout()
-//    QRCodeGenerator()
-//    WhatsAppImageExpand()
-//    Copy_PasteText()
-    
-    SizeClasses()
+      //    QRCodeGenerator()
+      //    WhatsAppImageExpand()
+      //    Copy_PasteText()
+      //    SizeClasses()
+    Swift_SwiftUI_Logos()
   }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(userSignedIn: true)
-            .environmentObject(ListViewModel())
-    }
+  static var previews: some View {
+    ContentView(userSignedIn: true)
+      .environmentObject(ListViewModel())
+  }
 }

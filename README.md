@@ -196,18 +196,19 @@
     12. 
 
 76. Compositional Layout with Api Call in pagination
-77. QRCode Generator and saved to Photos App 
-78. Do-Try-Catch-Throws 
-79. Download Image w/ @escaping (Revised) / combine (Revised) / Async-Await (New)
-80. Async-Await in detail - How does it work?!
-81. Copy & Paste Text
-82. New way of DateFormat in Swift 5.5
-83. Size Classes Basic Example
-84. Swift & SwiftUI Logos made by Shapes and Paths
+77. QRCode Generator and saved to Photos App  
+78. Copy & Paste Text
+79. New way of DateFormat in Swift 5.5
+80. Size Classes Basic Example
+81. Swift & SwiftUI Logos made by Shapes and Paths
 
 
 ![image](https://user-images.githubusercontent.com/43421834/189958098-74250672-254d-435d-8675-6abb5bd87379.png)
 
+
+82. Concurrency Topics: -
+    1. Do-Try-Catch-Throws
+    2. 
 
 
 

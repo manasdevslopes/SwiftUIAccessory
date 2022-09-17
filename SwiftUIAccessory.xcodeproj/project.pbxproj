@@ -95,7 +95,7 @@
 		FD759207280EAEEE0003DDAF /* BicycleAppSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */; };
 		FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */; };
 		FD75920B280ED8080003DDAF /* CountdownSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */; };
-		FD76A8ED282BA32F00BF0CC6 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76A8EC282BA32E00BF0CC6 /* DownloadImageAsync.swift */; };
+		FD7B466328D5DCA70056F6C4 /* DownloadImageWithAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B466228D5DCA70056F6C4 /* DownloadImageWithAsync.swift */; };
 		FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */; };
 		FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */; };
 		FD7CC36527BD426100B83AB7 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36327BD426100B83AB7 /* CoreDataContainer.xcdatamodeld */; };
@@ -298,7 +298,7 @@
 		FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleAppSwiftUI.swift; sourceTree = "<group>"; };
 		FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoaderSwiftUI.swift; sourceTree = "<group>"; };
 		FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownSwiftUI.swift; sourceTree = "<group>"; };
-		FD76A8EC282BA32E00BF0CC6 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		FD7B466228D5DCA70056F6C4 /* DownloadImageWithAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageWithAsync.swift; sourceTree = "<group>"; };
 		FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootCamp.swift; sourceTree = "<group>"; };
 		FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
 		FD7CC36427BD426100B83AB7 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -550,6 +550,7 @@
 		FD3F441128D5C3B200FBB47D /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FD7B466128D5DC8D0056F6C4 /* Async_Await */,
 				FD3F441228D5C3BF00FBB47D /* DoTryCatchThrows */,
 			);
 			path = Concurrency;
@@ -602,7 +603,6 @@
 				FD840D5728A9267B009F430C /* SizeClasses */,
 				FD840D2028A8E640009F430C /* DateFormat */,
 				FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */,
-				FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */,
 				FD72FDA1282A7E3D00F9766F /* QRCodeGenerator */,
 				FDE42896281D245E00C12F95 /* CompositionalLayout */,
 				FD759200280EA2260003DDAF /* UIDesigns */,
@@ -1042,12 +1042,12 @@
 			path = UIDesigns;
 			sourceTree = "<group>";
 		};
-		FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */ = {
+		FD7B466128D5DC8D0056F6C4 /* Async_Await */ = {
 			isa = PBXGroup;
 			children = (
-				FD76A8EC282BA32E00BF0CC6 /* DownloadImageAsync.swift */,
+				FD7B466228D5DCA70056F6C4 /* DownloadImageWithAsync.swift */,
 			);
-			path = DownloadImageAsyncAwait;
+			path = Async_Await;
 			sourceTree = "<group>";
 		};
 		FD7CC35E27BD3F2300B83AB7 /* CoreDataRelationshipsBootCamp */ = {
@@ -1816,7 +1816,6 @@
 				FD5DE2DC280ABA4400CD8863 /* ListRowView.swift in Sources */,
 				FD1E4BA228042B4C00A8A4A6 /* FilterCoreImage.swift in Sources */,
 				FD8B6CD327CA335A00E3EB26 /* CodableBootcamp2.swift in Sources */,
-				FD76A8ED282BA32F00BF0CC6 /* DownloadImageAsync.swift in Sources */,
 				FDE9293B27AEA2B20012EE6F /* MediaFile.swift in Sources */,
 				FD5DE2DE280ABAF100CD8863 /* ItemModel.swift in Sources */,
 				FDA03FD2279AA58500C2959D /* GeometryReaders.swift in Sources */,
@@ -1885,6 +1884,7 @@
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,
 				FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */,
 				FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */,
+				FD7B466328D5DCA70056F6C4 /* DownloadImageWithAsync.swift in Sources */,
 				FD3F441428D5C43B00FBB47D /* DoTryCatchThrow.swift in Sources */,
 				FD46419C28100D1400325D7C /* LikeButtonSwiftUI.swift in Sources */,
 				FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */,

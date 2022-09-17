@@ -33,6 +33,7 @@
 		FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */; };
 		FD2EE80A27F0409C0017A483 /* UITestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2EE80927F0409C0017A483 /* UITestingView.swift */; };
 		FD36C91927F30E1600C10312 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36C91827F30E1600C10312 /* AdvancedCombine.swift */; };
+		FD3F441428D5C43B00FBB47D /* DoTryCatchThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3F441328D5C43B00FBB47D /* DoTryCatchThrow.swift */; };
 		FD4240FE2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */; };
 		FD4241002768BE1A00BCE60A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4240FF2768BE1A00BCE60A /* ContentView.swift */; };
 		FD4241022768BE1E00BCE60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4241012768BE1E00BCE60A /* Assets.xcassets */; };
@@ -94,7 +95,6 @@
 		FD759207280EAEEE0003DDAF /* BicycleAppSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */; };
 		FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */; };
 		FD75920B280ED8080003DDAF /* CountdownSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */; };
-		FD76A8EA282B786500BF0CC6 /* DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76A8E9282B786500BF0CC6 /* DoTryCatchThrows.swift */; };
 		FD76A8ED282BA32F00BF0CC6 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD76A8EC282BA32E00BF0CC6 /* DownloadImageAsync.swift */; };
 		FD7CC36027BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */; };
 		FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */; };
@@ -236,6 +236,7 @@
 		FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		FD2EE80927F0409C0017A483 /* UITestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView.swift; sourceTree = "<group>"; };
 		FD36C91827F30E1600C10312 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
+		FD3F441328D5C43B00FBB47D /* DoTryCatchThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrow.swift; sourceTree = "<group>"; };
 		FD4240FA2768BE1A00BCE60A /* SwiftUIAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessoryApp.swift; sourceTree = "<group>"; };
 		FD4240FF2768BE1A00BCE60A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -297,7 +298,6 @@
 		FD759206280EAEEE0003DDAF /* BicycleAppSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleAppSwiftUI.swift; sourceTree = "<group>"; };
 		FD759208280ED4090003DDAF /* CircularLoaderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoaderSwiftUI.swift; sourceTree = "<group>"; };
 		FD75920A280ED8080003DDAF /* CountdownSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownSwiftUI.swift; sourceTree = "<group>"; };
-		FD76A8E9282B786500BF0CC6 /* DoTryCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrows.swift; sourceTree = "<group>"; };
 		FD76A8EC282BA32E00BF0CC6 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		FD7CC35F27BD3F3700B83AB7 /* CoreDataRelationshipsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootCamp.swift; sourceTree = "<group>"; };
 		FD7CC36127BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
@@ -547,6 +547,22 @@
 			path = AdvancedCombine;
 			sourceTree = "<group>";
 		};
+		FD3F441128D5C3B200FBB47D /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				FD3F441228D5C3BF00FBB47D /* DoTryCatchThrows */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		FD3F441228D5C3BF00FBB47D /* DoTryCatchThrows */ = {
+			isa = PBXGroup;
+			children = (
+				FD3F441328D5C43B00FBB47D /* DoTryCatchThrow.swift */,
+			);
+			path = DoTryCatchThrows;
+			sourceTree = "<group>";
+		};
 		FD4240F12768BE1A00BCE60A = {
 			isa = PBXGroup;
 			children = (
@@ -580,13 +596,13 @@
 				FD97165A28002BE00061393C /* Info.plist */,
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
+				FD3F441128D5C3B200FBB47D /* Concurrency */,
+				FD690FF0282FAA6400217349 /* AsyncAwait */,
 				FD0010D528D0D85C009C86E5 /* ShapesAndPaths */,
 				FD840D5728A9267B009F430C /* SizeClasses */,
 				FD840D2028A8E640009F430C /* DateFormat */,
 				FDC6B2FA28A8E26C0033CB69 /* Copy&PasteText */,
-				FD690FF0282FAA6400217349 /* AsyncAwait */,
 				FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */,
-				FD76A8E8282B778E00BF0CC6 /* DoTryCatchThrows */,
 				FD72FDA1282A7E3D00F9766F /* QRCodeGenerator */,
 				FDE42896281D245E00C12F95 /* CompositionalLayout */,
 				FD759200280EA2260003DDAF /* UIDesigns */,
@@ -1024,14 +1040,6 @@
 				FD46418D280FED8000325D7C /* PlacesSwiftUI */,
 			);
 			path = UIDesigns;
-			sourceTree = "<group>";
-		};
-		FD76A8E8282B778E00BF0CC6 /* DoTryCatchThrows */ = {
-			isa = PBXGroup;
-			children = (
-				FD76A8E9282B786500BF0CC6 /* DoTryCatchThrows.swift */,
-			);
-			path = DoTryCatchThrows;
 			sourceTree = "<group>";
 		};
 		FD76A8EB282BA31A00BF0CC6 /* DownloadImageAsyncAwait */ = {
@@ -1755,7 +1763,6 @@
 				FD72FDA5282A7E8300F9766F /* QRCodeGenerate.swift in Sources */,
 				FDE4289F281D301B00C12F95 /* ImageModel.swift in Sources */,
 				FD1E4BA4280437D600A8A4A6 /* ImageSaver.swift in Sources */,
-				FD76A8EA282B786500BF0CC6 /* DoTryCatchThrows.swift in Sources */,
 				FDA5E2572848CDD6006A3CAA /* Profile.swift in Sources */,
 				FDC6310927C25204001A3600 /* TypeAlias.swift in Sources */,
 				FD22621927E9C7D20033E3C1 /* GeometryPreferenceKey.swift in Sources */,
@@ -1878,6 +1885,7 @@
 				FD512DB22785E3F700FDB242 /* CustomViewTransition.swift in Sources */,
 				FD512DAC2785AE1200FDB242 /* BottomDrawers.swift in Sources */,
 				FDA03FD5279AAAB700C2959D /* MultipleSheets.swift in Sources */,
+				FD3F441428D5C43B00FBB47D /* DoTryCatchThrow.swift in Sources */,
 				FD46419C28100D1400325D7C /* LikeButtonSwiftUI.swift in Sources */,
 				FDA71E1E27A6B034007E9695 /* AppReviewRequestSecond.swift in Sources */,
 			);

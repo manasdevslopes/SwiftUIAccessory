@@ -29,6 +29,7 @@
 		FD24D7B127709779002A1340 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B027709779002A1340 /* CustomToolBar.swift */; };
 		FD24D7B327709979002A1340 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24D7B227709979002A1340 /* Popover.swift */; };
 		FD28DB9E27B16352005E4568 /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28DB9D27B16352005E4568 /* HashableProtocol.swift */; };
+		FD2926A128DDFBDB00F7EA86 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2926A028DDFBDB00F7EA86 /* AsyncAwait.swift */; };
 		FD2A869527DF572D00392CBE /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A869427DF572D00392CBE /* ViewModifiers.swift */; };
 		FD2A869827DF5D0500392CBE /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */; };
 		FD2EE80A27F0409C0017A483 /* UITestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2EE80927F0409C0017A483 /* UITestingView.swift */; };
@@ -81,7 +82,6 @@
 		FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */; };
 		FD68BE4027BBEE9400399326 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */; };
 		FD68BE4327BBEFC400399326 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD68BE4127BBEFC400399326 /* FruitsContainer.xcdatamodeld */; };
-		FD690FF2282FAAB200217349 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD690FF1282FAAB200217349 /* AsyncAwait.swift */; };
 		FD6BA57A2773492C00BA7F5D /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */; };
 		FD6E2DD927CE34B7009602EB /* FileManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E2DD827CE34B7009602EB /* FileManagers.swift */; };
 		FD6EDB23276B5FBA0022F45A /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */; };
@@ -232,6 +232,7 @@
 		FD24D7B027709779002A1340 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		FD24D7B227709979002A1340 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		FD28DB9D27B16352005E4568 /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
+		FD2926A028DDFBDB00F7EA86 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FD2A869427DF572D00392CBE /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		FD2A869727DF5D0500392CBE /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		FD2EE80927F0409C0017A483 /* UITestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView.swift; sourceTree = "<group>"; };
@@ -284,7 +285,6 @@
 		FD68BE3D27BBEE4200399326 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
 		FD68BE3F27BBEE9400399326 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		FD68BE4227BBEFC400399326 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
-		FD690FF1282FAAB200217349 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FD6BA5792773492C00BA7F5D /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		FD6E2DD827CE34B7009602EB /* FileManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagers.swift; sourceTree = "<group>"; };
 		FD6EDB22276B5FBA0022F45A /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
@@ -598,7 +598,6 @@
 				FD4240FD2768BE1A00BCE60A /* SwiftUIAccessoryApp.swift */,
 				FD4240FF2768BE1A00BCE60A /* ContentView.swift */,
 				FD3F441128D5C3B200FBB47D /* Concurrency */,
-				FD690FF0282FAA6400217349 /* AsyncAwait */,
 				FD0010D528D0D85C009C86E5 /* ShapesAndPaths */,
 				FD840D5728A9267B009F430C /* SizeClasses */,
 				FD840D2028A8E640009F430C /* DateFormat */,
@@ -941,14 +940,6 @@
 			path = CoreDataBootCamp;
 			sourceTree = "<group>";
 		};
-		FD690FF0282FAA6400217349 /* AsyncAwait */ = {
-			isa = PBXGroup;
-			children = (
-				FD690FF1282FAAB200217349 /* AsyncAwait.swift */,
-			);
-			path = AsyncAwait;
-			sourceTree = "<group>";
-		};
 		FD6BA5782773491500BA7F5D /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1046,6 +1037,7 @@
 			isa = PBXGroup;
 			children = (
 				FD7B466228D5DCA70056F6C4 /* DownloadImageWithAsync.swift */,
+				FD2926A028DDFBDB00F7EA86 /* AsyncAwait.swift */,
 			);
 			path = Async_Await;
 			sourceTree = "<group>";
@@ -1751,7 +1743,6 @@
 				FD7CC36227BD3F7D00B83AB7 /* CoreDataRelationshipsViewModel.swift in Sources */,
 				FD759209280ED4090003DDAF /* CircularLoaderSwiftUI.swift in Sources */,
 				FD5DE2E2280AC04900CD8863 /* HapticsViewModel.swift in Sources */,
-				FD690FF2282FAAB200217349 /* AsyncAwait.swift in Sources */,
 				FD55A4C027EB2068002F595C /* UIViewRepresentableBootcamp.swift in Sources */,
 				FDC84A4927EAFE62005790B6 /* CustomNavBarContainerView.swift in Sources */,
 				FD5DE2E0280ABC4000CD8863 /* ListViewModel.swift in Sources */,
@@ -1792,6 +1783,7 @@
 				FDFCB3CD27D22D4400DEF0FE /* PhotoModelFileManager.swift in Sources */,
 				FDFCB3C427D2168900DEF0FE /* DownloadingImagesRow.swift in Sources */,
 				FD68BE3E27BBEE4200399326 /* CoreDataBootCamp.swift in Sources */,
+				FD2926A128DDFBDB00F7EA86 /* AsyncAwait.swift in Sources */,
 				FDE9294127AEB7BA0012EE6F /* Reel.swift in Sources */,
 				FDFCB3C727D21E6F00DEF0FE /* DownloadingImageView.swift in Sources */,
 				FDC84A4B27EB01D5005790B6 /* CustomNavView.swift in Sources */,

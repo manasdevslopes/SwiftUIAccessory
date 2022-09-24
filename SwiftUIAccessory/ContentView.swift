@@ -33,7 +33,8 @@ struct ContentView: View {
       //    WhatsAppImageExpand()
       //    Copy_PasteText()
       //    SizeClasses()
-    Swift_SwiftUI_Logos()
+//    Swift_SwiftUI_Logos()
+    TaskAnddotTaskHomeView()
   }
 }
 

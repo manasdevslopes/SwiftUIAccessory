@@ -210,8 +210,9 @@
     1. Do-Try-Catch-Throws
     2. Download Images with Async/Await, @escaping closure, combine framework
     3. Async / Await keywords in details
-    4. 
+    4. Task, cancel task with using @State with onAppear{} and onDisappear {}, also .task { } for both calling async function and cancel
     5.
+    6.
 
 
 
